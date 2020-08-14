@@ -10,7 +10,14 @@ export default class HomePage extends React.Component {
 	render() {
 		return (
 			<div className="Homepage">
-				
+				<div className="homepage-banner">
+                    <img src="images/HomePage/banner.png" alt="Banner" />
+                    <div className="homepage-banner-text text-center">
+                        <p>Up to 50% Off on Women's clothing</p>
+                        <a href='Catalog'><button className="mt-2">More</button></a>
+                    </div>
+
+                </div>
 			</div>
 		)
 	}

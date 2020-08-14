@@ -6,7 +6,7 @@ const Navbar = () => {
 	return (
 <header>
 	<nav className="navbar navbar-expand-sm upper-section">
-				<div className="col-xl-4 col-lg-3 col-md-3 col-sm-2"><img className='navbar-logo' src='images/logo.svg' /></div>
+				<div className="col-xl-4 col-lg-3 col-md-3 col-sm-2"><a href='/'><img className='navbar-logo' src='images/logo.svg' /></a></div>
 				<div className="col-xl-4 col-lg-4 col-md-4 col-sm-4">
 					<div className="searchbar">
 						<form className="form-inline">

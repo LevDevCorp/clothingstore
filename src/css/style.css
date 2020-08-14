@@ -1,0 +1,321 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #687774; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #403234; 
+}
+
+body {
+    background-color:#F7F1F0;
+}
+
+
+/* NAVBAR */
+.navbar {
+    padding: 3px 10px;
+}
+
+/* NAVBAR UPPER SECTION */
+
+.upper-section a {
+    font-weight: 800;
+}
+
+.searchbar {
+  margin-bottom: auto;
+  margin-top: auto;
+  background-color: #E7E7E7;
+  border-radius: 30px;
+}
+
+.search_input{
+  color: #403234;
+  border: 0;
+  outline: 0;
+  background: none;
+  padding: 0 10px;
+  width: 90%;
+  height: 35px;
+  caret-color:#403234;
+  line-height: 35px;
+  transition: width 0.4s linear;
+}
+
+.search_icon {
+height: 30px;
+width: 30px;
+float: right;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+text-decoration: none;
+color: #403234;
+border:#403234;
+background-color: #403234;
+text-decoration:none;
+}
+
+.search_icon:hover {
+text-decoration: none;
+}
+
+.search_icon img {
+  color:#E2C2B3;
+}
+
+nav li a{
+  color: #403234;
+}
+nav li a img{
+  width: 25px;
+}
+
+.navbar-toggler {
+  color: #403234;
+}
+
+/* NAVBAR LOWER-Section */
+
+.lower-section li a {
+  font-weight: 400;
+  font-size: 20px;
+  color: #687774;
+}
+
+.lower-section li {
+  margin: 0 35px;
+}
+
+
+/* FOOTER */
+footer {
+  background-color: #E7E7E7;
+  padding: 20px 0;
+  margin-top: 500px;
+}
+
+.footer-cards {
+    margin-top: 50px;
+}
+
+.footer-cards img{
+    max-width: 80px;
+    height: 30px;
+    margin: 5px;
+}
+
+.footer-midsection{
+    margin-top: 20px;
+    color: #707070;
+}
+
+.footer-rightsection{
+    margin-top: 20px;
+    font-weight: 800;
+    color: #707070!important;
+}
+.footer-rightsection a{
+    font-weight: 800;
+    color: #707070;
+}
+
+.footer-midsection-socialmedia img{
+    margin: 0 3px;
+    max-width: 30px;
+}
+
+@media screen and (max-width: 1150px){
+	.search_input{
+		width: 85%;
+  }
+    nav li a{
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1200px){
+    .container{
+      max-width: 1440px;
+    }
+  }
+
+
+@media screen and (max-width: 800px){
+	.search_input{
+		width: 75%;
+  }
+  .navbar-logo {
+    width: 100px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.car_searchfield {
+    border-radius: 20px;
+    width: 450px;
+    padding:2px 10px;
+}
+
+.car_form button {
+    border-radius: 20px;
+    border: none;
+    padding:5px 10px;
+}
+
+.car_images img{
+    height: 200px;
+    border-radius: 5px;
+}
+
+.car_images p{
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+
+.modalBox {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modalBox-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  height: 30%;
+  border-radius: 10px;
+  width: 40%; /* Could be more or less, depending on screen size */
+}
+
+.modalBox-content button {
+  bottom: 10%;  
+}
+
+.carInfo {
+  color:#555;
+  border: 4px #000 solid;
+  border-radius: 5px;
+
+}
+
+.carDetails {
+  padding: 10px;
+
+}
+
+.carInfo img {
+  height: 500px;
+}
+
+.carDetails span {
+  color: #999;
+}
+
+.carInfo .col-8, .col-4 {
+  padding: 0;
+}
+
+/* LOGIN */
+
+.login {
+  margin-top: 130px;
+}
+
+.user_card {
+  height: 400px;
+  width: 350px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: #f39c12;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+
+}
+.brand_logo_container {
+  position: absolute;
+  height: 170px;
+  width: 170px;
+  top: -75px;
+  border-radius: 50%;
+  background: #60a3bc;
+  padding: 10px;
+  text-align: center;
+}
+.brand_logo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.form_container {
+  margin-top: 100px;
+}
+.login_btn {
+  width: 100%;
+  background: #c0392b !important;
+  color: white !important;
+}
+.login_btn:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+.login_container {
+  padding: 0 2rem;
+}
+.input-group-text {
+  background: #c0392b !important;
+  color: white !important;
+  border: 0 !important;
+  border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.input_user,
+.input_pass:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+  background-color: #c0392b !important;
+} 

@@ -5,7 +5,7 @@ import { Footer } from './components/footer';
 import HomePage from './components/Homepage/Homepage';
 import Login from './components/login';
 import ErrorPage from './components/errorPage';
-import ClothingPage from './components/Catalog/clothingPage';
+import ClothingPage from './components/Product/clothingPage';
 import Catalog from './components/Catalog/clothingCatalog';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/style.css';

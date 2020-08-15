@@ -7,6 +7,20 @@ a,p{
     margin-bottom: 0;
 }
 
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+h1{font-size: 50px;}
+h2{font-size: 40px;}
+h3{font-size: 28px;}
+h4{font-size: 24px;}
+h5{font-size: 20px;}
+h6{font-size: 16px;}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -28,8 +42,8 @@ a,p{
 
 body {
     background-color:#F7F1F0;
+    width: 100%;
 }
-
 
 /* NAVBAR */
 .navbar {
@@ -85,9 +99,10 @@ text-decoration: none;
   color:#E2C2B3;
 }
 
-nav li a{
+.upper-section li a{
   color: #403234;
 }
+
 nav li a img{
   width: 25px;
 }
@@ -102,6 +117,9 @@ nav li a img{
   font-weight: 400;
   font-size: 20px;
   color: #687774;
+}
+.lower-section li a:hover {
+  color: #403234;
 }
 
 .lower-section li {
@@ -176,12 +194,78 @@ footer {
     color: #403234;
     font-size: 16px;
     font-weight: 800;
+    font-size: 20px;
     padding: 3px 24px;
-    width: 125px;
+    width: 140px;
     border: none;
     cursor: pointer;
     border-radius: 20px;
 }
+
+
+
+/* Catalog */
+.Divider {
+    border: #E7E7E7 3px solid;
+    margin-top: 30px;
+}
+
+.catalog{
+    max-width: 1500px;
+}
+
+.Catalog-filter{
+    max-width: 300px;
+}
+
+.Catalog-filter h3{
+    color: #687774;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.Catalog-filter-SubDivision{
+    color: #403234;
+}
+
+.Catalog-filter-SubDivision a{
+    color: #403234;
+}
+.Catalog-filter-SubDivision a:hover{
+    color: #999;
+}
+
+.Catalog-filter-Colors{
+
+}
+
+.Catalog-filter-ColorSwitch div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.Catalog-filter-ColorSwitch ul li{
+    word-wrap: break-word!important;
+}
+
+
+
+
+.red{background-color: red;}
+.blue{background-color: blue;}
+.black{background-color:black;}
+.white{background-color:white;}
+.green{background-color:green;}
+.pink{background-color:pink;}
+.grey{background-color:grey;}
+
+
+
+
+
+
 
 
 

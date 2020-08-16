@@ -5,7 +5,7 @@ import { Footer } from './components/footer';
 import HomePage from './components/Homepage/Homepage';
 import Login from './components/login';
 import ErrorPage from './components/errorPage';
-import ClothingPage from './components/Product/clothingPage';
+import Product from './components/Product/Product';
 import Catalog from './components/Catalog/clothingCatalog';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/style.css';
@@ -20,7 +20,7 @@ const ClothingShop = () => {
 					<Route exact path='/' component={HomePage}></Route>
 					<Route exact path='/Catalog' component={Catalog}></Route>
 					<Route exact path='/Login' component={Login}></Route>
-					<Route path='/:manufacturer/:id' component={ClothingPage}></Route>
+					<Route path='/:id' component={Product}></Route>
 					<Route component={ErrorPage}></Route>
 				</Switch>
 				<Footer />

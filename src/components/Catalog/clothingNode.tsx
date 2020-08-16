@@ -10,11 +10,11 @@ export interface CarNodeProps {
 export default class CarNode extends React.Component<CarNodeProps>{
 	render(){
 		return(
-	        <div className="car mt-4 col-3">
-	            <p>{this.props.clothing.manufacturer} | {this.props.clothing.model} </p>
-	            <img className="w-100" alt='ClothingPicture' src={`images/${this.props.clothing.manufacturer+this.props.clothing.manufacturerId}.${this.props.clothing.picType}`} />
-	            <Link to={this.props.clothing.manufacturer + '/' + this.props.clothing.id}>
-					<button disabled={this.props.disable} className={'btn btn-primary w-100' }>ვრცლად</button>
+	        <div className="Catalog-product mt-4 col-xl-3 col-lg-3 col-md-6 col-sm-6">
+	            <Link to={`${this.props.clothing.ProductId}`}>
+	                <img className="w-100" alt='ClothingPicture' src={`images/Catalog/${this.props.clothing.ProductName}.${this.props.clothing.picType}`} />
+	                <h5 className='mt-2'>{this.props.clothing.ProductName}</h5>
+	                <h5 className='mt-2'>{this.props.clothing.price}$</h5>
 				</Link>
 	        </div>
 		)

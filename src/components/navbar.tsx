@@ -6,8 +6,8 @@ const Navbar = () => {
 	return (
 <header>
 	<nav className="navbar navbar-expand-sm upper-section">
-				<div className="col-xl-4 col-lg-3 col-md-3 col-sm-2"><a href='/'><img className='navbar-logo' src='images/logo.svg' /></a></div>
-				<div className="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+				<div className="col-xl-4 col-lg-3 col-md-3 col-sm-2 col-xs-12"><a href='/'><img className='navbar-logo' src='images/logo.svg' /></a></div>
+				<div className="col-xl-4 col-lg-4 col-md-4 col-sm-10 col-xs-12">
 					<div className="searchbar">
 						<form className="form-inline">
 							<input className="search_input" type="search" placeholder="Search" aria-label="Search"/>
@@ -15,7 +15,7 @@ const Navbar = () => {
 						</form>
 					</div>
 				</div>
-				<div className="col-xl-4 col-lg-5 col-md-5 col-sm-6">
+				<div className="col-xl-4 col-lg-5 col-md-5 col-sm-6 col-xs-12">
 					<div className="m-auto text-center">
 						<ul className="navbar-nav justify-content-center">
 							<li className="nav-item">
@@ -39,16 +39,16 @@ const Navbar = () => {
 	<nav className="navbar navbar-expand-sm lower-section justify-content-center">
 		<ul className="navbar-nav">
 			<li className="nav-item">
-				<a className="nav-link" href="#">Man</a>
+				<NavLink className="nav-link" exact to='/Catalog'>Man</NavLink>
 			</li>
 			<li className="nav-item">
-				<a className="nav-link" href="#">Women</a>
+				<NavLink className="nav-link" exact to='/Catalog'>Women</NavLink>
 			</li>
 			<li className="nav-item">
-				<a className="nav-link" href="#">Kids</a>
+				<NavLink className="nav-link" exact to='/Catalog'>Kids</NavLink>
 			</li>
 			<li className="nav-item">
-				<a className="nav-link" href="#">Sale</a>
+				<NavLink className="nav-link" exact to='/Catalog'>Sale</NavLink>
 			</li>
 		</ul>
 	</nav>

@@ -6,7 +6,7 @@ const Navbar = () => {
 	return (
 <header>
 	<nav className="navbar navbar-expand-sm upper-section">
-				<div className="col-xl-4 col-lg-3 col-md-3 col-sm-2 col-xs-12"><a href='/'><img className='navbar-logo' src='images/logo.svg' /></a></div>
+				<div className="col-xl-4 col-lg-3 col-md-3 col-sm-2 col-xs-12"><NavLink to='Clothingstore/'><img className='navbar-logo' src='images/logo.svg' /></NavLink></div>
 				<div className="col-xl-4 col-lg-4 col-md-4 col-sm-10 col-xs-12">
 					<div className="searchbar">
 						<form className="form-inline">
@@ -39,16 +39,16 @@ const Navbar = () => {
 	<nav className="navbar navbar-expand-sm lower-section justify-content-center">
 		<ul className="navbar-nav">
 			<li className="nav-item">
-				<NavLink className="nav-link" exact to='/Catalog'>Man</NavLink>
+				<NavLink className="nav-link" exact to='/Clothingstore/Catalog'>Man</NavLink>
 			</li>
 			<li className="nav-item">
-				<NavLink className="nav-link" exact to='/Catalog'>Women</NavLink>
+				<NavLink className="nav-link" exact to='/Clothingstore/Catalog'>Women</NavLink>
 			</li>
 			<li className="nav-item">
-				<NavLink className="nav-link" exact to='/Catalog'>Kids</NavLink>
+				<NavLink className="nav-link" exact to='/Clothingstore/Catalog'>Kids</NavLink>
 			</li>
 			<li className="nav-item">
-				<NavLink className="nav-link" exact to='/Catalog'>Sale</NavLink>
+				<NavLink className="nav-link" exact to='/Clothingstore/Catalog'>Sale</NavLink>
 			</li>
 		</ul>
 	</nav>

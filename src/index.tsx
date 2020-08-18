@@ -17,10 +17,10 @@ const ClothingShop = () => {
 			<Router>
 				<Navbar />
 				<Switch>
-					<Route exact path='/' component={HomePage}></Route>
-					<Route exact path='/Catalog' component={Catalog}></Route>
-					<Route exact path='/Login' component={Login}></Route>
-					<Route path='/:id' component={Product}></Route>
+					<Route exact path='/Clothingstore/' component={HomePage}></Route>
+					<Route exact path='/Clothingstore/Catalog' component={Catalog}></Route>
+					<Route exact path='/Clothingstore/Login' component={Login}></Route>
+					<Route path='/Clothingstore/:id' component={Product}></Route>
 					<Route component={ErrorPage}></Route>
 				</Switch>
 				<Footer />

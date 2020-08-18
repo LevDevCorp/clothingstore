@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/clothingstore/static/css/main.836a21d9.chunk.css",
-    "main.js": "/clothingstore/static/js/main.52d73ebb.chunk.js",
-    "main.js.map": "/clothingstore/static/js/main.52d73ebb.chunk.js.map",
+    "main.js": "/clothingstore/static/js/main.7f825ac1.chunk.js",
+    "main.js.map": "/clothingstore/static/js/main.7f825ac1.chunk.js.map",
     "runtime-main.js": "/clothingstore/static/js/runtime-main.2e068c27.js",
     "runtime-main.js.map": "/clothingstore/static/js/runtime-main.2e068c27.js.map",
-    "static/css/2.11829350.chunk.css": "/clothingstore/static/css/2.11829350.chunk.css",
-    "static/js/2.c0637a50.chunk.js": "/clothingstore/static/js/2.c0637a50.chunk.js",
-    "static/js/2.c0637a50.chunk.js.map": "/clothingstore/static/js/2.c0637a50.chunk.js.map",
+    "static/css/2.821b8ecc.chunk.css": "/clothingstore/static/css/2.821b8ecc.chunk.css",
+    "static/js/2.3d3f9e29.chunk.js": "/clothingstore/static/js/2.3d3f9e29.chunk.js",
+    "static/js/2.3d3f9e29.chunk.js.map": "/clothingstore/static/js/2.3d3f9e29.chunk.js.map",
     "index.html": "/clothingstore/index.html",
-    "precache-manifest.0bbabced57ac4ef8f6cdc6ba7d234da4.js": "/clothingstore/precache-manifest.0bbabced57ac4ef8f6cdc6ba7d234da4.js",
+    "precache-manifest.db9421e2fafdd89bfafbd090adf643b4.js": "/clothingstore/precache-manifest.db9421e2fafdd89bfafbd090adf643b4.js",
     "service-worker.js": "/clothingstore/service-worker.js",
-    "static/css/2.11829350.chunk.css.map": "/clothingstore/static/css/2.11829350.chunk.css.map",
+    "static/css/2.821b8ecc.chunk.css.map": "/clothingstore/static/css/2.821b8ecc.chunk.css.map",
     "static/css/main.836a21d9.chunk.css.map": "/clothingstore/static/css/main.836a21d9.chunk.css.map",
-    "static/js/2.c0637a50.chunk.js.LICENSE.txt": "/clothingstore/static/js/2.c0637a50.chunk.js.LICENSE.txt",
+    "static/js/2.3d3f9e29.chunk.js.LICENSE.txt": "/clothingstore/static/js/2.3d3f9e29.chunk.js.LICENSE.txt",
     "static/media/style.css": "/clothingstore/static/media/Arrow.7adb1fb5.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2e068c27.js",
-    "static/css/2.11829350.chunk.css",
-    "static/js/2.c0637a50.chunk.js",
+    "static/css/2.821b8ecc.chunk.css",
+    "static/js/2.3d3f9e29.chunk.js",
     "static/css/main.836a21d9.chunk.css",
-    "static/js/main.52d73ebb.chunk.js"
+    "static/js/main.7f825ac1.chunk.js"
   ]
 }

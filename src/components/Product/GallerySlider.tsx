@@ -17,20 +17,20 @@ interface ClothingPageProps extends RouteComponentProps<MatchParams>{
 
 const images = [
     {
-      original: 'images/Product/adidas1.jpg',
-      thumbnail: 'images/Product/adidas1.jpg',
+      original: '../images/Product/adidas1.jpg',
+      thumbnail: '../images/Product/adidas1.jpg',
     },
     {
-      original: 'images/Product/adidas2.jpg',
-      thumbnail: 'images/Product/adidas2.jpg',
+      original: '../images/Product/adidas2.jpg',
+      thumbnail: '../images/Product/adidas2.jpg',
     },
     {
-      original: 'images/Product/adidas3.jpg',
-      thumbnail: 'images/Product/adidas3.jpg',
+      original: '../images/Product/adidas3.jpg',
+      thumbnail: '../images/Product/adidas3.jpg',
     },
     {
-      original: 'images/Product/adidas4.jpg',
-      thumbnail: 'images/Product/adidas4.jpg',
+      original: '../images/Product/adidas4.jpg',
+      thumbnail: '../images/Product/adidas4.jpg',
     },
   ];
   

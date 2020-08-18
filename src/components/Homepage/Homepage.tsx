@@ -12,12 +12,11 @@ export default class HomePage extends React.Component {
 		return (
 			<div className="Homepage">
 				<div className="homepage-banner">
-                    <img src="images/Homepage/Banner.png" alt="Banner" />
+                    <img src="images/Homepage/123.jpg" alt="Banner" />
                     <div className="homepage-banner-text text-center">
                         <p>Up to 50% Off on Women's clothing</p>
                         <Link to='catalog'><button className="mt-2">More</button></Link>
                     </div>
-
                 </div>
 			</div>
 		)

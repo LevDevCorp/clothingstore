@@ -7,9 +7,9 @@ const Footer = () => {
             <div className="row">
                 <div className="col-4">
                     <div className='row footer-cards'>
-                        <div className=""><img src='images/Cards/Visa.svg' /></div>
+                        <div className=""><img src='images/Cards/VISA.svg' /></div>
                         <div className=""><img src='images/Cards/mastercard.svg' /></div>
-                        <div className=""><img src='images/Cards/paypal.svg' /></div>
+                        <div className=""><img src='images/Cards/Paypal.svg' /></div>
                         <div className=""><img src='images/Cards/american-express.svg' /></div>
                     </div>
                 </div>

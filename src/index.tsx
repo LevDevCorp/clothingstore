@@ -20,7 +20,7 @@ const ClothingShop = () => {
 					<Route exact path='/clothingstore' component={HomePage}></Route>
 					<Route exact path='/clothingstore/Catalog' component={Catalog}></Route>
 					<Route exact path='/clothingstore/Login' component={Login}></Route>
-					<Route path='/clothingstore/:id' component={Product}></Route>
+					<Route exact path='/clothingstore/Product/:id' component={Product}></Route>
 					<Route component={ErrorPage}></Route>
 				</Switch>
 				<Footer />

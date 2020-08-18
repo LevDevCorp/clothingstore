@@ -5,7 +5,7 @@ export default class Review extends React.Component {
         return (
             <div className="Product-reviews-review mt-3 p-3">
                 <div className="Product-review-account d-flex">
-                <img src='images/Product/AccountLogo.svg' alt='Account Icon' />
+                <img src='../images/Product/AccountLogo.svg' alt='Account Icon' />
                 <h4>Jondo Bondo</h4>
                 </div>
                 <h6 className='mt-2'>Reviewd on <span>06.06.2020</span></h6>

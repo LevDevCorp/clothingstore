@@ -7,7 +7,7 @@ const Navbar = () => {
 <header>
 	<nav className="navbar navbar-expand-sm upper-section">
 				<div className="col-xl-4 col-lg-3 col-md-3 col-sm-2 col-xs-12">
-                    <NavLink exact to='/clothingstore/ '><img className='navbar-logo' src='images/logo.svg' /></NavLink>
+                    <NavLink exact to='/clothingstore/'><img className='navbar-logo' src='images/logo.svg' /></NavLink>
                 </div>
 				<div className="col-xl-4 col-lg-4 col-md-4 col-sm-10 col-xs-12">
 					<div className="searchbar">

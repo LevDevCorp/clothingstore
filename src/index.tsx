@@ -14,17 +14,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 const ClothingShop = () => {
 	return (
 		<div>
-			<Router>
-				<Navbar />
-				<Switch>
-					<Route exact path='/Clothingstore/' component={HomePage}></Route>
-					<Route exact path='/Clothingstore/Catalog' component={Catalog}></Route>
-					<Route exact path='/Clothingstore/Login' component={Login}></Route>
-					<Route path='/Clothingstore/:id' component={Product}></Route>
-					<Route component={ErrorPage}></Route>
-				</Switch>
-				<Footer />
-			</Router>
+
 		</div>
 	);
 }

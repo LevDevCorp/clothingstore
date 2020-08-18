@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default class HomePage extends React.Component {
 	state = { filterValue: '' }
@@ -14,7 +15,7 @@ export default class HomePage extends React.Component {
                     <img src="images/Homepage/Banner.png" alt="Banner" />
                     <div className="homepage-banner-text text-center">
                         <p>Up to 50% Off on Women's clothing</p>
-                        <a href='Catalog'><button className="mt-2">More</button></a>
+                        <Link to='catalog'><button className="mt-2">More</button></Link>
                     </div>
 
                 </div>

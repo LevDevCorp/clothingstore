@@ -11,23 +11,23 @@ export default class LoginForm extends React.Component {
 								<form>
 									<div className="loginForm-socmedia mb-4">
                                         <a href='#'>
-                                            <div><img src='./images/Login/Google.svg' />Log in with Google</div>
+                                            <div><img src='./images/Login/google.svg' alt='google icon'/>Log in with Google</div>
                                         </a>
 									</div>
 									<div className="loginForm-socmedia mb-5">
                                         <a href='#'>
-                                            <div><img src='./images/Login/Facebook.svg' />Log in with Facebook</div>
+                                            <div><img src='./images/Login/facebook.svg' alt='facebook icon'/>Log in with Facebook</div>
                                         </a>
 									</div>
 									<div className="input-group  mb-4">
 										<div className="input-group-append">
-											<span className="input-group-text"><img src='./images/Login/Login.svg' /></span>
+											<span className="input-group-text"><img src='./images/Login/Login.svg'alt='Login icon' /></span>
 										</div>
 										<input type="Email" name="login" placeholder='Email' />
 									</div>
 									<div className="input-group mb-4">
 										<div className="input-group-append">
-											<span className="input-group-text"><img src='./images/Login/password.svg' /></span>
+											<span className="input-group-text"><img src='./images/Login/Password.svg' /></span>
 										</div>
 										<input type="password" placeholder='Password' />
 									</div>

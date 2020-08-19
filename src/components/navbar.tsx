@@ -21,12 +21,13 @@ const Navbar = () => {
 					<div className="m-auto text-center">
 						<ul className="navbar-nav justify-content-center">
 							<li className="nav-item">
-							<NavDropdown title={ <span><img  src='images/myaccount.svg' /> My Account</span>} id="basic-nav-dropdown">
+							{/* <NavDropdown title={ <span><img  src='images/myaccount.svg' /> My Account</span>} id="basic-nav-dropdown">
 								<NavDropdown.Item href="#action/3.1">Orders</NavDropdown.Item>
 								<NavDropdown.Item href="#action/3.2">Wishlist</NavDropdown.Item>
 								<NavDropdown.Divider />
 								<NavDropdown.Item href="#action/3.4">Log out</NavDropdown.Item>
-							</NavDropdown>
+							</NavDropdown> */}
+								<NavLink className="nav-link" exact to="/clothingstore/Login"><img  src='images/myaccount.svg' />Register/Login</NavLink>
 							</li>
 							<li className="nav-item">
 								<a className="nav-link" href="#"><img  src='images/shopping-cart.svg' />Cart</a>

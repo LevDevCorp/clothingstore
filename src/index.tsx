@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Navbar } from './components/navbar';
 import { Footer } from './components/footer';
 import HomePage from './components/Homepage/Homepage';
-import Login from './components/login';
+import Login from './components/login/login';
 import ErrorPage from './components/errorPage';
 import Product from './components/Product/Product';
 import Catalog from './components/Catalog/clothingCatalog';

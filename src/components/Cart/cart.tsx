@@ -8,14 +8,14 @@ export default class Cart extends React.Component {
 		return (
 				<div className="container Cart">
                     <div className="row">
-                        <div className="col-8">
+                        <div className="col-xl-8 col-lg-8">
                         <h2>Shopping Cart</h2>
                             <div className="Cart-list">
                                 <CartProduct />
                                 <CartProduct />
                             </div>
                         </div>
-                        <div className="col-4">
+                        <div className="col-xl-4 col-lg-4">
                             <CartCheckout />
                         </div>
                     </div>

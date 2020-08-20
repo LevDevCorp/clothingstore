@@ -1,13 +1,13 @@
 import React from 'react';
 
-export default class CartProduct extends React.Component {
-
+export default class WishlistProduct extends React.Component {
     render() {
         return (
             <div className="product mt-3 row">
-                <div className="col-xl-3 col-lg-3"><img className='product-image w-100 h-100' src='./images/Clothing/Shoe-Nike-nizza.jpg'></img></div>
-                <div className="col-xl-9 col-lg-9">
+                <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12"><img className='product-image h-100 w-100' src='./images/Clothing/Shoe-Nike-nizza.jpg'></img></div>
+                <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <h4>2018 New Long Sleeve T-shirt Sport Men Quick Fitness Mensights jerseys</h4>
+                    <h5>64.00$</h5>
                     <div className="product-quantity mt-3">
                         <h5>Quantity</h5>
                         <a href='#'><img src='./images/Cart/minus.svg' /></a>
@@ -18,9 +18,10 @@ export default class CartProduct extends React.Component {
                         <a href='#' ><img src='./images/Cart/trash.svg' /></a>
                     </div>
                 </div>
+                <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <button className='button' >Add to Cart</button>
+                </div>
             </div>
-
-
         )
     }
 }

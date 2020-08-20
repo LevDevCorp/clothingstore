@@ -9,6 +9,8 @@ import Product from './components/Product/Product';
 import Catalog from './components/Catalog/clothingCatalog';
 import Cart from './components/Cart/cart';
 import Checkout from './components/Checkout/checkout';
+import Orders from './components/Orders/order';
+import Wishlist from './components/Wishlist/wishlist';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/style.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -24,6 +26,8 @@ const ClothingShop = () => {
 					<Route exact path='/clothingstore/Login' component={Login}></Route>
 					<Route exact path='/clothingstore/Cart' component={Cart}></Route>
 					<Route exact path='/clothingstore/Checkout' component={Checkout}></Route>
+					<Route exact path='/clothingstore/Orders' component={Orders}></Route>
+					<Route exact path='/clothingstore/Wishlist' component={Wishlist}></Route>
 					<Route exact path='/clothingstore/Product/:id' component={Product}></Route>
 					<Route component={ErrorPage}></Route>
 				</Switch>

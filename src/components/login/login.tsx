@@ -3,7 +3,6 @@ import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
 import LoginForm from './loginForm';
 import RegisterForm from './registerForm';
-import TabContainer from 'react-bootstrap/TabContainer'
 
 export default function ControlledTabs() {
     const [key, setKey] = useState('register');

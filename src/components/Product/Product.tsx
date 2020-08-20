@@ -61,8 +61,8 @@ export default class ClothingPage extends React.Component<ClothingPageProps, Clo
                                 <div className="Product-details-wishlist d-flex justify-content-center mt-4">
                                     <button>Add to Wishlist</button>
                                 </div>
-                                <div className="Product-details-Cart mt-5">
-                                    <button>Add to Cart</button>
+                                <div className="mt-5">
+                                    <button className='button'>Add to Cart</button>
                                 </div>
                             </div>
                         </div>

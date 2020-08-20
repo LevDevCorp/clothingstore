@@ -14,6 +14,9 @@ a:hover{
     text-decoration: none;
 }
 
+
+input , button:focus {outline: none;}
+
 h1{font-size: 50px;}
 h2{font-size: 40px;}
 h3{font-size: 28px;}
@@ -39,6 +42,24 @@ h6{font-size: 12px;}
 ::-webkit-scrollbar-thumb:hover {
   background: #403234; 
 }
+
+/* Common */
+.button {
+    background-color: #403234;
+    color: #F7F3F5;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 0;
+}
+
+.checkout {
+    background-color: #fff;
+    margin-top: 64px;
+    padding:15px 20px;
+}
+.checkout h4, .Cart-checkout h5{color: #403234;}
+.checkout h5 span{margin-left: auto;}
 
 body {
     background-color:#F7F1F0;
@@ -353,22 +374,13 @@ footer {
     background-color: #E7E7E7;
 }
 
-.Product-details-Cart button {
-    background-color: #403234;
-    color: #F7F3F5;
-    border-radius: 5px;
-    border:none;
-    padding:10px 10px;
-    width: 100%;
-}
+
 
 .Product-reviews-review {
     background-color: #fff;
 }
 
-
 .Product-reviews-review img {max-width: 30px;}
-
 .Product-reviews-review h4{
     color: #403234;
     margin: auto 0;
@@ -409,8 +421,8 @@ footer {
 
 .loginForm-socmedia div img{margin:0 30px 0 100px;}
 .login img {width: 20px;}
-.login .input-group-text {padding:0 .75rem}
-.login .input-group-text, .login .input-group input {
+.input-group-text {padding:0 .75rem}
+.input-group-text, .input-group input {
     color: #403234;
     font-weight: 700;
     background-color: transparent;
@@ -418,8 +430,8 @@ footer {
     outline: none;
 }
 
-.login form .input-group {border-bottom: 1px solid #403234;}
-.login form .input-group input {
+form .input-group {border-bottom: 1px solid #687774;}
+.input-group input {
     padding: 5px 10px;
     width: 400px;
 }
@@ -435,18 +447,6 @@ footer {
 .loginForm-forgotPass a{
     color: #707070;
     font-weight: 700;
-}
-
-.loginForm-button {
-    background-color: #403234;
-    color: #F7F3F5;
-    width: 100%;
-    border-radius: 10px;
-    border: none;
-    padding: 5px;
-}
-.loginForm-button:focus {
-    outline: none;
 }
 
 .checkbox-container {
@@ -518,11 +518,74 @@ footer {
     transform: rotate(45deg);
 }
 
+/* Cart */
+.Cart-list h4{color:#403234}
+.Cart-list-product {
+    padding: 15px 0;
+    background-color: #fff;
+}
 
+.Cart-list-productimage {
+    width: 200px;
+    height: 170px;
+}
+.Cart-list-quantity h5:first-child{padding: 0;margin:0}
+.Cart-list-quantity h5{
+    padding:0 10px;
+    color: #687774;
+    vertical-align: sub;
+}
+.Cart-list-quantity img,.Cart-list-trash img {width: 20px;}
 
+/* Checkout */
 
+.Checkout-Shippinginfo , .Checkout-payment {
+    margin-top: 64px;
+    background-color: #fff;
+    padding:20px 30px;
+}
 
+.Checkout-Shippinginfo-form{margin-top: 40px;}
+.Checkout-Shippinginfo form .input-group ,.Checkout-payment form .input-group{
+    width: 600px;
+}
 
+.Checkout-payment form input {
+    border: none;
+    background-color: transparent;
+    font-size: 26px;
+    color: #687774;
+    border-bottom: 2px solid #D5CFCF;
+}
+.Checkout-payment input::placeholder{color: #E7E7E7;}
+
+.Checkout-payment-frontcard ,.Checkout-payment-backcard{
+    background-color: #F7F3F5;
+    padding:25px 15px;
+    border-radius: 10px;
+}
+
+.Checkout-payment h4,
+.Checkout-payment h5,
+.Checkout-payment h6{margin:0}
+.Checkout-payment h6{font-size: 14px;}
+
+.Checkout-payment-cardholder input {max-width: 250px;}
+.Checkout-payment-expdate input {max-width: 100px;}
+.Checkout-payment-line {
+    background-color: #687774;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.Checkout-payment-cvv{
+    margin-top: 105px;
+}
+.Checkout-payment-cvv input{
+    width: 50px;
+}
 
 @media (min-width: 1300px){
     .container{

@@ -43,7 +43,7 @@ export default class LoginForm extends React.Component {
                                         </div>
 									</div>
 									<div className="d-flex justify-content-center mt-3 login_container">
-										<button type="button" name="button" className="loginForm-button">Login</button>
+										<button type="button" name="button" className="button">Login</button>
 									</div>
 								</form>
 							</div>

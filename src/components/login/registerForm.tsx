@@ -31,7 +31,7 @@ export default class RegisterForm extends React.Component {
 										<input type="text" placeholder='Adress' />
 									</div>
 									<div className="d-flex justify-content-center mt-5 login_container">
-										<button type="button" name="button" className="loginForm-button">Login</button>
+										<button type="button" name="button" className="button">Register</button>
 									</div>
 								</form>
 							</div>

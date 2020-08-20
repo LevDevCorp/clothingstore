@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import { Navbar } from './components/navbar';
 import { Footer } from './components/footer';
 import HomePage from './components/Homepage/Homepage';
-import Login from './components/login/login';
+import Login from './components/Login/login';
 import ErrorPage from './components/errorPage';
 import Product from './components/Product/Product';
 import Catalog from './components/Catalog/clothingCatalog';
+import Cart from './components/Cart/cart';
+import Checkout from './components/Checkout/checkout';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/style.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -20,6 +22,8 @@ const ClothingShop = () => {
 					<Route exact path='/clothingstore/' component={HomePage}></Route>
 					<Route exact path='/clothingstore/Catalog' component={Catalog}></Route>
 					<Route exact path='/clothingstore/Login' component={Login}></Route>
+					<Route exact path='/clothingstore/Cart' component={Cart}></Route>
+					<Route exact path='/clothingstore/Checkout' component={Checkout}></Route>
 					<Route exact path='/clothingstore/Product/:id' component={Product}></Route>
 					<Route component={ErrorPage}></Route>
 				</Switch>

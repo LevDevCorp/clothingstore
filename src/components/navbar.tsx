@@ -33,7 +33,7 @@ const Navbar = () => {
 								<NavLink className="nav-link" exact to="/clothingstore/Cart"><img  src='images/shopping-cart.svg' />Cart</NavLink>
 							</li>
 							<li  className="nav-item ">
-								<a className="nav-link" href="#"><img  src='images/georgia.svg' />GEO</a>
+								<a className="nav-link" href="#"><img  src='./images/georgia.svg' />GEO</a>
 							</li>
 						</ul>
 					</div>

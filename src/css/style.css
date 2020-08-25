@@ -201,7 +201,58 @@ footer {
     border-radius: 20px;
 }
 
+.mt--1 {
+    margin-top: 190px;
+}
 
+.mt--100 {
+    margin-top: 100px;
+}
+
+.margin-R {
+    margin-right: 20px;
+}
+
+.p-carousel{
+    padding: 25px 50px;
+}
+
+.slick-arrow {
+    background-color: black;
+    height: 35px;
+    width: 35px;
+    border-radius: 100px;
+    
+}
+.slick-arrow:hover {
+    background-color: black;
+}
+.slick-next {
+    right: 10px;
+}
+.slick-prev {
+    left: 10px;
+}
+.slick-prev, .slick-next {
+    color: black;
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    color: black;
+    outline: none;
+    background: black;
+}
+.slick-slide img {
+    width: 300px;
+}
+.height-320 {
+    height: auto;
+}
+.bg-collor{
+    background-color: #fff;
+}
+.margin-bott{
+    margin-bottom: 100px;
+}
 
 /* Catalog */
 .Divider {

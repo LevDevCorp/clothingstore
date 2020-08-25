@@ -4,40 +4,39 @@ import ClothingStore from '../../stores/clothingStore';
 import { RouteComponentProps } from 'react-router-dom';
 import Clothing from '../../Clothing';
 
-interface ClothingPageState {
-    currentClothing:Clothing|undefined
+export interface ClothingImageProps {
+	clothingimage?:string|undefined,
+	type?:string|undefined,
 }
 
-interface MatchParams {
-    id:string
-}
+export default class GallerySlider extends React.Component<ClothingImageProps> {
+    // images = Array(3).map((images, i)=> {
+    //     return {
+    //         original: `../images/Product/${this.props.clothingimage}1.${this.props.type}`,
+    //         thumbnail: `../images/Product/${this.props.clothingimage}1.${this.props.type}`,
 
-interface ClothingPageProps extends RouteComponentProps<MatchParams>{
-}
-
-const images = [
-    {
-      original: '../images/Product/adidas1.jpg',
-      thumbnail: '../images/Product/adidas1.jpg',
-    },
-    {
-      original: '../images/Product/adidas2.jpg',
-      thumbnail: '../images/Product/adidas2.jpg',
-    },
-    {
-      original: '../images/Product/adidas3.jpg',
-      thumbnail: '../images/Product/adidas3.jpg',
-    },
-    {
-      original: '../images/Product/adidas4.jpg',
-      thumbnail: '../images/Product/adidas4.jpg',
-    },
-  ];
-  
-export default class GallerySlider extends React.Component {
-
+    //     }
+    //     })
+    images = [
+              {
+                original: `../images/Product/${this.props.clothingimage}1.${this.props.type}`,
+                thumbnail: `../images/Product/${this.props.clothingimage}1.${this.props.type}`,
+              },
+              {
+                original: `../images/Product/${this.props.clothingimage}2.${this.props.type}`,
+                thumbnail: `../images/Product/${this.props.clothingimage}2.${this.props.type}`,
+              },
+              {
+                original: `../images/Product/${this.props.clothingimage}3.${this.props.type}`,
+                thumbnail: `../images/Product/${this.props.clothingimage}3.${this.props.type}`,
+              },
+              {
+                original: `../images/Product/${this.props.clothingimage}4.${this.props.type}`,
+                thumbnail: `../images/Product/${this.props.clothingimage}4.${this.props.type}`,
+              },
+      ];
     render() {
-      return <ImageGallery items={images} showPlayButton={false} thumbnailPosition={'bottom'} showNav={false} showFullscreenButton={false}
+      return <ImageGallery items={this.images} showPlayButton={false} thumbnailPosition={'bottom'} showNav={false} showFullscreenButton={false}
       />;
     }
   }

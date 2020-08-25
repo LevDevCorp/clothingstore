@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 export default class RegisterForm extends React.Component {
 
 	render() {
@@ -8,7 +9,7 @@ export default class RegisterForm extends React.Component {
 					<div className="d-flex justify-content-center h-100">
 						<div className="user_card">
 							<div className="d-flex justify-content-center form_container">
-								<form>
+								<form  >
 									<div className="input-group mb-4">
 										<input type="text" placeholder='Full Name' />
 									</div>

@@ -240,7 +240,6 @@ footer {
 }
 
 .slick-arrow {
-    background-color: black;
     height: 35px;
     width: 35px;
     border-radius: 100px;
@@ -259,10 +258,28 @@ footer {
     color: black;
 }
 .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
-    color: black;
     outline: none;
-    background: black;
+    background-color: transparent;
 }
+
+.slick-next:before , .slick-prev:before {
+    color: #403234;
+    font-size: 40px;
+}
+
+.slick-list {padding: 0 10px;}
+.slick-slide {
+    width: 300px!important; 
+    margin: 0 13px;
+    outline: none;
+}
+
+.slick-slide .height-320:focus{outline:none;}
+.slick-slide .height-320 {
+    display: flex!important;
+    justify-content: center;
+}
+
 .slick-slide img {
     width: 300px;
 }

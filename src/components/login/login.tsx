@@ -4,9 +4,8 @@ import Tab from 'react-bootstrap/Tab';
 import LoginForm from './loginForm';
 import RegisterForm from './registerForm';
 
-export default function ControlledTabs() {
+export default function Login() {
     const [key, setKey] = useState('register');
-  
     return (
         <div className="login mt-3 mb-5">
             <Tabs defaultActiveKey="login" id="uncontrolled-tab-example">

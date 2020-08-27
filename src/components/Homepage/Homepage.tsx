@@ -17,39 +17,39 @@ export default class HomePage extends React.Component {
                     <img src="images/Homepage/Banner.png" alt="Banner" />
                     <div className="homepage-banner-text text-center">
                         <p>Up to 50% Off on Women's clothing</p>
-                        <Link to='catalog'><button className="mt-2">More</button></Link>
+                        <Link to='/clothingstore/Catalog'><button className="mt-2">More</button></Link>
                     </div>
                 </div>
 				<div className="container">
 					<div className="row mt--1">
 						<div className="homepage-banner col-4">
-							<Link to="/" >
-                    		<img src="images/Homepage/menSection.png" alt="menSection" />
+							<Link to="/clothingstore/Catalog" >
+                                <img src="images/Homepage/menSection.png" alt="menSection" />
+                                <div className="homepage-banner-text text-center">
+                                    <p>MEN</p>
+                                </div>
 							</Link>
-                    		<div className="homepage-banner-text text-center">
-                        		<p>men</p>
-                        		<Link to='#'></Link>
-                    		</div>
+
 
                		 	</div>
 						<div className="homepage-banner col-4">
-							<Link to="/">
-                    		<img src="images/Homepage/womenSection.png" alt="womenSection" />
+							<Link to="/clothingstore/Catalog">
+                                <img src="images/Homepage/womenSection.png" alt="womenSection" />
+                                <div className="homepage-banner-text text-center">
+                                    <p>WOMEN</p>
+                                </div>
 							</Link>
-                    		<div className="homepage-banner-text text-center">
-                        		<p>women</p>
-                        		<Link to='#'></Link>
-                    		</div>
+
 
                		 	</div>
 						<div className="homepage-banner col-4">
-							<Link to="/" >
-                    		<img src="images/Homepage/kidsSection.png" alt="kidsSection" />
+							<Link to="/clothingstore/Catalog" >
+                                <img src="images/Homepage/kidsSection.png" alt="kidsSection" />
+                                <div className="homepage-banner-text text-center">
+                                    <p>KIDS</p>
+                                </div>
 							</Link>
-                    		<div className="homepage-banner-text text-center">
-                        		<p>kids</p>
-                        		<Link to='#'></Link>
-                    		</div>
+
 
                		 	</div>
 					</div>

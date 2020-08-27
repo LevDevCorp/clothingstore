@@ -6,8 +6,6 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 
 export default class NewRelease extends React.Component {
@@ -23,32 +21,49 @@ export default class NewRelease extends React.Component {
           <Container className="mt--100 ">
             <div className="clearfix">
               <h4 className="float-left">New Release</h4>
-              <Link className="float-right text-upercase" to="/" >View More</Link>
+              <Link className="float-right text-upercase" to="/clothingstore/Catalog" >View More</Link>
             </div>
            <Slider className="border p-carousel bg-collor" {...settings}>
         <div className="height-320  ">
-          <img className="margin-R" src="images/Homepage/pants-sport.png" alt="pants-sport" />
+            <Link to='/clothingstore/product/1'>
+                <img className="margin-R" src="images/Homepage/pants-sport.png" alt="pants-sport" />
+            </Link>
         </div>
         <div className="height-320 ">
-          <img className="margin-R" src="images/Homepage/shoe-women-casual.png" alt="shoe-women-casualn" />
+            <Link to='/clothingstore/product/1'>
+                <img className="margin-R" src="images/Homepage/shoe-women-casual.png" alt="shoe-women-casualn" />
+            </Link>
         </div>
         <div className="height-320 " >
-          <img src="images/Homepage/winter-jacket.png" alt="winter-jacket" />
+            <Link to='/clothingstore/product/1'>
+                <img src="images/Homepage/winter-jacket.png" alt="winter-jacket" />
+            </Link>
+
         </div>
         <div className="height-320 ">
-          <img src="images/Homepage/jexxi-ring.png" alt="jexxi-ring" />
+            <Link to='/clothingstore/product/1'>
+                <img src="images/Homepage/jexxi-ring.png" alt="jexxi-ring" />
+            </Link>
         </div>
         <div className="height-320 ">
-          <img className="" src="images/Homepage/pants-sport.png" alt="pants-sport" />
+            <Link to='/clothingstore/product/1'>
+                <img className="" src="images/Homepage/pants-sport.png" alt="pants-sport" />
+            </Link>
         </div>
         <div  className="height-320 ">
-          <img src="images/Homepage/shoe-women-casual.png" alt="shoe-women-casualn" />
+            <Link to='/clothingstore/product/1'>
+                <img src="images/Homepage/shoe-women-casual.png" alt="shoe-women-casualn" />
+            </Link>
         </div>
         <div  className="height-320 ">
-          <img src="images/Homepage/winter-jacket.png" alt="winter-jacket" />
+            <Link to='/clothingstore/product/1'>
+                <img src="images/Homepage/winter-jacket.png" alt="winter-jacket" />
+            </Link>
         </div>
         <div  className="height-320">
-          <img src="images/Homepage/jexxi-ring.png" alt="jexxi-ring" />
+            <Link to='/clothingstore/product/1'>
+                <img src="images/Homepage/jexxi-ring.png" alt="jexxi-ring" />
+            </Link>
         </div>
       </Slider>
       </Container>

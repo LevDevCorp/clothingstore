@@ -5,17 +5,28 @@ import ClothingStore from '../../stores/clothingStore';
 import RangeSlider from './RangeSlider'
 
 
+
 export interface ClothingCollectionProps {
 	filterValue:string,
 }
 
 export interface ClothingCollectionState {
-	Clothings:Clothing[]
+    Clothings:Clothing[],
+    productType:string
 }
 
 
 export default class ClothingCollection extends React.Component<ClothingCollectionProps> {
-	state = {cars :ClothingStore.createClothings()}
+    state = {clothing :ClothingStore.createClothings()}
+    
+    // state:ClothingCollectionState = {Clothings :undefined}
+    // componentDidMount(){
+    //     ClothingStore.createClothings().then((res) => {
+    //         this.state?({
+    //             Clothings:res
+    //         })
+    //     })
+    // }
 	render(){
 		return(
         <div className="catalog">
@@ -88,7 +99,7 @@ export default class ClothingCollection extends React.Component<ClothingCollecti
                         </div>
                     <div className="row Catalog-list mt-2 mb-5">
 
-                        {this.state.cars.map((Clothing,i) => {
+                        {this.state.clothing.map((Clothing,i) => {
                             return (
                                 <ClothingNode key={i} clothing={Clothing} disable={parseInt(this.props.filterValue) < Clothing.price }/>
                             )

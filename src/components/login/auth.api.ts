@@ -5,10 +5,18 @@ export interface Credentials {
     password:string,
 }
 
+export interface CredentialsRegister {
+    email:string,
+    password:string,
+    phoneNumber:string,
+    city:string,
+    address:string,
+}
+
 export const onLogin = async (data:Credentials) => {
     const requestConfig:AxiosRequestConfig = {
-        method:"POST",
-        url:'Login',
+        method:"post",
+        url:process.env.REACT_APP_API_BASE_URL + '/login',
         data,
     }
 
@@ -18,4 +26,19 @@ export const onLogin = async (data:Credentials) => {
         console.error(e);
         return {error:e.response.data.message}
     }
+}
+
+export const onRegister = async (data:CredentialsRegister) => {
+    const requestConfig:AxiosRequestConfig = {
+        method:"POST",
+        url:process.env.REACT_APP_API_BASE_URL + '/login',
+        data,
+    }
+    const {data:response } = await Axios.request(requestConfig);
+    console.log(response);
+    // try {
+    // } catch(e) {
+    //     console.error(e);
+    //     return {error:e.response.data.message}
+    // }
 }

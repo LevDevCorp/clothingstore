@@ -1,13 +1,18 @@
 import React from "react";
 import Clothing from '../../Clothing';
-import { Link } from 'react-router-dom';
+import ClothingStore from '../../stores/clothingStore';
+import { Link , RouteComponentProps  } from 'react-router-dom';
 
-export interface CarNodeProps {
+
+export interface ClothingNodeProps {
 	clothing:Clothing,
-	disable:boolean,
+    disable:boolean,
 }
 
-export default class CarNode extends React.Component<CarNodeProps>{
+
+
+export default class ClothingNode extends React.Component<ClothingNodeProps>{
+
 	render(){
 		return(
 	        <div className="Catalog-product mt-4 col-xl-3 col-lg-3 col-md-6 col-sm-6">

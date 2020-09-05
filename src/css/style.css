@@ -5,6 +5,7 @@ a,p{
 	font-size: 100%;
     vertical-align: baseline;
     margin-bottom: 0;
+    outline: none;
 }
 
 a{
@@ -472,7 +473,6 @@ footer {
     color: #687477;
     font-weight: 700;
 }
-
 .login .nav-tabs .nav-link{
     color: #687477;
     border: none;

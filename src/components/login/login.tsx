@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
-import LoginForm from './loginForm';
-import RegisterForm from './registerForm';
+import {LoginForm} from './loginForm';
+import {RegisterForm} from './registerForm';
 
 export default function Login() {
     const [key, setKey] = useState('register');

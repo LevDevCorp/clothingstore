@@ -3,15 +3,17 @@ export default class Clothing{
     ProductId:number;
     ProductName:string;
     color:string;
+    productType:string;
     price:number;
     picType:string;
 
 
-    constructor(id: number , ProductId:number, ProductName:string ,  color: string , price: number, picType:string){
+    constructor(id: number , ProductId:number, ProductName:string ,  color: string , productType:string, price: number, picType:string){
         this.id = id;
         this.ProductId = ProductId;
         this.ProductName = ProductName;
         this.color = color;
+        this.productType = productType
         this.price = price;   
         this.picType = picType;  
     }

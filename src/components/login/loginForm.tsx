@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {onLogin} from './auth.api';
 
-export default function LoginForm() {
+export const LoginForm = () => {
     const [{ email, password }, setCredentials] = useState({
         email: "",
         password: "",
@@ -9,7 +9,7 @@ export default function LoginForm() {
 
     const [error, setError] = useState('');
 
-    const Login = async(event:React.FormEvent) => {
+    const loginInput = async(event:React.FormEvent) => {
         event.preventDefault();
         const response = await onLogin({
             email,
@@ -26,7 +26,7 @@ export default function LoginForm() {
             <div className="d-flex justify-content-center h-100">
                 <div className="user_card">
                     <div className="d-flex justify-content-center form_container">
-                        <form onSubmit={Login}>
+                        <form onSubmit={loginInput}>
                             <div className="loginForm-socmedia mb-4">
                                 <a href='#'><div><img src='./images/Login/google.svg' alt='google icon' />Log in with Google</div></a>
                             </div>

@@ -1,0 +1,21 @@
+{
+  "clothing": [
+    {
+        "id":1,
+        "ProductName":"Men's Adidas Sports pants",
+        "color":"white",
+        "productType":"Men",
+        "price":53.99,
+        "picType":"jpg"
+    },
+    {
+        "id":1,
+        "ProductName":"Men's Adidas Sports pants",
+        "color":"white",
+        "productType":"Men",
+        "price":53.99,
+        "picType":"jpg"
+    }
+  ]
+
+}

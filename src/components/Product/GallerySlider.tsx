@@ -17,26 +17,36 @@ export default class GallerySlider extends React.Component<ClothingImageProps> {
 
     //     }
     //     })
-    images = [
-              {
-                original: `../images/Product/${this.props.clothingimage}1.${this.props.type}`,
-                thumbnail: `../images/Product/${this.props.clothingimage}1.${this.props.type}`,
-              },
-              {
-                original: `../images/Product/${this.props.clothingimage}2.${this.props.type}`,
-                thumbnail: `../images/Product/${this.props.clothingimage}2.${this.props.type}`,
-              },
-              {
-                original: `../images/Product/${this.props.clothingimage}3.${this.props.type}`,
-                thumbnail: `../images/Product/${this.props.clothingimage}3.${this.props.type}`,
-              },
-              {
-                original: `../images/Product/${this.props.clothingimage}4.${this.props.type}`,
-                thumbnail: `../images/Product/${this.props.clothingimage}4.${this.props.type}`,
-              },
-      ];
+    // images = [
+    //           {
+    //             original: `../images/Product/${this.props.clothingimage}1.${this.props.type}`,
+    //             thumbnail: `../images/Product/${this.props.clothingimage}1.${this.props.type}`,
+    //           },
+    //           {
+    //             original: `../images/Product/${this.props.clothingimage}2.${this.props.type}`,
+    //             thumbnail: `../images/Product/${this.props.clothingimage}2.${this.props.type}`,
+    //           },
+    //           {
+    //             original: `../images/Product/${this.props.clothingimage}3.${this.props.type}`,
+    //             thumbnail: `../images/Product/${this.props.clothingimage}3.${this.props.type}`,
+    //           },
+    //           {
+    //             original: `../images/Product/${this.props.clothingimage}4.${this.props.type}`,
+    //             thumbnail: `../images/Product/${this.props.clothingimage}4.${this.props.type}`,
+    //           },
+    //   ];
+
+
+
     render() {
-      return <ImageGallery items={this.images} showPlayButton={false} thumbnailPosition={'bottom'} showNav={false} showFullscreenButton={false}
+    const images = [];
+        for(let i=1; i<4; i++){
+            images.push({ 
+                    original: `../images/Product/${this.props.clothingimage}${i}.${this.props.type}`,
+                    thumbnail: `../images/Product/${this.props.clothingimage}${i}.${this.props.type}`,
+            })
+        }
+      return <ImageGallery items={images} showPlayButton={false} thumbnailPosition={'bottom'} showNav={false} showFullscreenButton={false}
       />;
     }
   }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Clothing from '../../Clothing';
 import ClothingNode from './clothingNode';
 import ClothingStore from '../../stores/clothingStore';
@@ -12,7 +12,6 @@ export interface ClothingCollectionProps {
 
 export interface ClothingCollectionState {
     Clothings:Clothing[],
-    productType:string
 }
 
 
@@ -27,6 +26,7 @@ export default class ClothingCollection extends React.Component<ClothingCollecti
     //         })
     //     })
     // }
+
 	render(){
 		return(
         <div className="catalog">
@@ -100,9 +100,11 @@ export default class ClothingCollection extends React.Component<ClothingCollecti
                     <div className="row Catalog-list mt-2 mb-5">
 
                         {this.state.clothing.map((Clothing,i) => {
+                                console.log(Clothing.id)
                             return (
-                                <ClothingNode key={i} clothing={Clothing} disable={parseInt(this.props.filterValue) < Clothing.price }/>
+                                <ClothingNode key={Clothing.id} clothing={Clothing} disable={parseInt(this.props.filterValue) < Clothing.price }/>
                             )
+                            
                         })}
                     </div>
                     <div className="Catalog-PageSwitch d-flex justify-content-center">

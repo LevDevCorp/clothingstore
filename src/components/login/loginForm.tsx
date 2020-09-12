@@ -46,7 +46,7 @@ export const LoginForm = () => {
                             </div>
                             <div className="input-group mb-4">
                                 <div className="input-group-append">
-                                    <span className="input-group-text"><img src='./images/Login/Password.svg' /></span>
+                                    <span className="input-group-text"><img src='./images/Login/Password.svg' alt="passwordicon"/></span>
                                 </div>
                                 <input type="password" placeholder='Password' value={password} onChange={(event) =>
                                     setCredentials({

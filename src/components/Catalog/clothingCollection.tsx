@@ -115,7 +115,7 @@ export default class ClothingCollection extends React.Component<ClothingCollecti
                                 <a href='#'><div className="Catalog-Pageswitch-Switch Pagenumber">4</div></a>
                                 <a href='#'><div className="Catalog-Pageswitch-Switch Pagenumber">5</div></a>
                                 <a href='#'><div className="Catalog-Pageswitch-Switch PrevNext">Next</div></a>
-                            </div> 
+                    </div>
                 </div>
 			</div>
         </div>

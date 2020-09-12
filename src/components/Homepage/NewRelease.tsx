@@ -1,5 +1,4 @@
 import React from 'react';
-import Clothing from '../../Clothing';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Slider from 'react-slick';
@@ -30,18 +29,18 @@ export default class NewRelease extends React.Component {
             </Link>
         </div>
         <div className="height-320 ">
-            <Link to='/clothingstore/product/1'>
+            <Link to='/clothingstore/product/2'>
                 <img className="margin-R" src="images/Homepage/shoe-women-casual.png" alt="shoe-women-casualn" />
             </Link>
         </div>
         <div className="height-320 " >
-            <Link to='/clothingstore/product/1'>
+            <Link to='/clothingstore/product/3'>
                 <img src="images/Homepage/winter-jacket.png" alt="winter-jacket" />
             </Link>
 
         </div>
         <div className="height-320 ">
-            <Link to='/clothingstore/product/1'>
+            <Link to='/clothingstore/product/4'>
                 <img src="images/Homepage/jexxi-ring.png" alt="jexxi-ring" />
             </Link>
         </div>

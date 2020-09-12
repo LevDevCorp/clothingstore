@@ -1,8 +1,8 @@
 /* eslint-disable class-methods-use-this, no-console */
-import React, { useState } from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';
+// import ReactDOM from 'react-dom';
 import { makeStyles } from '@material-ui/core/styles';
-import Typography from '@material-ui/core/Typography';
+// import Typography from '@material-ui/core/Typography';
 import Slider from '@material-ui/core/Slider';
 //import InputRange from 'react-input-range';
 

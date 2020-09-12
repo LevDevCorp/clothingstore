@@ -7,13 +7,13 @@ const Navbar = () => {
 <header>
 	<nav className="navbar navbar-expand-sm upper-section">
 				<div className="col-xl-4 col-lg-3 col-md-3 col-sm-2 col-xs-12">
-                    <NavLink exact to='/clothingstore/'><img className='navbar-logo' src='./images/logo.svg' /></NavLink>
+                    <NavLink exact to='/clothingstore/'><img className='navbar-logo' src='./images/logo.svg' alt="logoicon"/></NavLink>
                 </div>
 				<div className="col-xl-4 col-lg-4 col-md-4 col-sm-10 col-xs-12">
 					<div className="searchbar">
 						<form className="form-inline">
 							<input className="search_input" type="search" placeholder="Search" aria-label="Search"/>
-							<button className="search_icon ml-auto m-1"><img  src='images/search-icon.svg' /></button>
+							<button className="search_icon ml-auto m-1"><img  src='images/search-icon.svg' alt="searchicon"/></button>
 						</form>
 					</div>
 				</div>
@@ -21,19 +21,19 @@ const Navbar = () => {
 					<div className="m-auto text-center">
 						<ul className="navbar-nav justify-content-center">
 							<li className="nav-item">
-							{/* <NavDropdown title={ <span><img  src='images/myaccount.svg' /> My Account</span>} id="basic-nav-dropdown">
+							{/* <NavDropdown title={ <span><img  src='images/myaccount.svg' alt="accounticon"/> My Account</span>} id="basic-nav-dropdown">
 								<NavDropdown.Item href="#action/3.1">Orders</NavDropdown.Item>
 								<NavDropdown.Item href="#action/3.2">Wishlist</NavDropdown.Item>
 								<NavDropdown.Divider />
 								<NavDropdown.Item href="#action/3.4">Log out</NavDropdown.Item>
 							</NavDropdown> */}
-								<NavLink className="nav-link" exact to="/clothingstore/Login"><img  src='images/myaccount.svg' />Register/Login</NavLink>
+								<NavLink className="nav-link" exact to="/clothingstore/Login"><img  src='images/myaccount.svg' alt="accounticon"/>Register/Login</NavLink>
 							</li>
 							<li className="nav-item">
-								<NavLink className="nav-link" exact to="/clothingstore/Cart"><img  src='images/shopping-cart.svg' />Cart</NavLink>
+								<NavLink className="nav-link" exact to="/clothingstore/Cart"><img  src='images/shopping-cart.svg' alt="shoppingcarticon"/>Cart</NavLink>
 							</li>
 							<li  className="nav-item ">
-								<a className="nav-link" href="#"><img  src='images/georgia.svg' />GEO</a>
+								<a className="nav-link" href="#"><img  src='images/georgia.svg' alt="languageicon"/>GEO</a>
 							</li>
 						</ul>
 					</div>

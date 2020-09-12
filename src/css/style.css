@@ -214,7 +214,6 @@ footer {
 .homepage-banner-text button{
     background-color: #E7E7E7;
     color: #403234;
-    font-size: 16px;
     font-weight: 800;
     font-size: 20px;
     padding: 3px 24px;
@@ -224,7 +223,7 @@ footer {
     border-radius: 20px;
 }
 
-.mt--1 {
+/* .mt--1 {
     margin-top: 190px;
 }
 
@@ -283,6 +282,64 @@ footer {
 
 .slick-slide img {
     width: 300px;
+}
+.height-320 {
+    height: auto;
+}
+.bg-collor{
+    background-color: #fff;
+}
+.margin-bott{
+    margin-bottom: 100px;
+} */
+
+.mt--1 {
+    margin-top: 190px;
+}
+
+.mt--100 {
+    margin-top: 100px;
+}
+
+.margin-R {
+    margin-right: 20px;
+}
+
+.p-carousel{
+    padding: 25px 50px;
+}
+
+.slick-arrow {
+    height: 35px;
+    width: 35px;
+    border-radius: 100px;
+    
+}
+.slick-arrow:hover {
+    background-color: black;
+}
+.slick-next {
+    right: 10px;
+}
+.slick-prev {
+    left: 10px;
+}
+.slick-prev, .slick-next {
+    color: black;
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    outline: none;
+    background-color: transparent;
+}
+
+.slick-next:before , .slick-prev:before {
+    color: #403234;
+    font-size: 40px;
+}
+.slick-slide img {
+    /* width: 300px; */
+    width: 100%;
+    padding: 0px 5px;
 }
 .height-320 {
     height: auto;
@@ -688,6 +745,8 @@ form .input-group {border-bottom: 1px solid #687774;}
     nav li a{font-size: 14px;}
     .footer-cards img{max-width: 60px;}
     .Checkout-payment form input{font-size: 16px;}
+    .mt--1 {margin-top: 100px;}
+    .mt--100 {margin-top: 50px;}
 }
 
 @media screen and (max-width: 1000px){
@@ -701,6 +760,11 @@ form .input-group {border-bottom: 1px solid #687774;}
     .Checkout-payment-frontcard, .Checkout-payment-backcard{padding: 40px 15px;}
     .Checkout-payment-frontcard .checkout-inputfield{margin-top: 30px;}
     .Checkout-payment-cvv{margin-top: 120px;}
+    .homepage-banner-text p {font-size: 32px;}
+    .homepage-banner-text button{
+        font-size: 16px;
+        width: 120px;
+    }
 }
 
 @media screen and (max-width: 800px){
@@ -720,6 +784,14 @@ form .input-group {border-bottom: 1px solid #687774;}
     .upper-section{flex-direction: column;}
     .footer-cards img{max-width: 30px;}
     .Wishlist .button{margin-top: 30px;}
+    .homepage-banner-text p{font-size: 30px;}
+    .mt--1 {margin-top: 70px;}
+    .mt--100 {margin-top: 50px;}
+    .homepage-banner-text p {font-size: 26px;}
+    .homepage-banner-text button{
+        font-size: 16px;
+        width: 100px;
+    }
 }
 
 @media screen and (max-width: 647px){
@@ -730,7 +802,12 @@ form .input-group {border-bottom: 1px solid #687774;}
         width: 20px;
     }
     .footer-cards img{max-width: 30px;}
-
+    .homepage-banner-text p {font-size: 20px;}
+    .homepage-banner-text button{
+        font-size: 14px;
+        width: 80px;
+        padding: 3px 16px;
+    }
 
     .upper-section{flex-direction: column;}
     .upper-section .searchbar {margin-top: 10px;}
@@ -741,5 +818,11 @@ form .input-group {border-bottom: 1px solid #687774;}
 }
 @media screen and (max-width: 500px){
     .Catalog-PageSwitch .PrevNext {width: 75px; }
+    .homepage-banner-text p {font-size: 16px;}
+    .homepage-banner-text button{
+        font-size: 14px;
+        width: 80px;
+        padding:2px 14px ;
+    }
 }
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import CheckoutOrder from './checkoutOrder';
 import CheckoutShipping from './checkoutShipping';
 import CheckoutPaymenthMethod from './checkoutPaymenthMethod';

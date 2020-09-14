@@ -3,19 +3,26 @@ import Clothing from '../../Clothing';
 import ClothingNode from './clothingNode';
 import ClothingStore from '../../stores/clothingStore';
 import RangeSlider from './RangeSlider'
+import { RouteComponentProps } from 'react-router-dom';
 
 
-
-export interface ClothingCollectionProps {
-	filterValue:string,
-}
 
 export interface ClothingCollectionState {
     Clothings:Clothing[],
 }
 
+// interface MatchParams {
+//     Category:string
+// }
 
-export default class ClothingCollection extends React.Component<ClothingCollectionProps> {
+// export interface ClothingCollectionProps extends RouteComponentProps<MatchParams> {
+// }
+
+export default class ClothingCollection extends React.Component{
+    // constructor(props:ClothingCollectionProps){
+    //     super(props);
+    // }
+
     state = {clothing :ClothingStore.createClothings()}
     
     // state:ClothingCollectionState = {Clothings :undefined}
@@ -26,15 +33,16 @@ export default class ClothingCollection extends React.Component<ClothingCollecti
     //         })
     //     })
     // }
-
 	render(){
+        // let category = useParams;
+    
 		return(
         <div className="catalog">
 			<div className="row">
                 <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
                     <div className="Catalog-filter  ml-4">
                         <div className="Catalog-filter-Switch">
-                            <a className='Catalog-filter-Division' href='#'><h3>Men</h3></a>
+                            <a className='Catalog-filter-Division' href=''><h3>Men</h3></a>
                                 <div className='Catalog-filter-SubDivision '>
                                     <a className='' href='#'><h6>Hoodies & Sweatshirts</h6></a>
                                     <a className='' href='#'><h6>Pants</h6></a>
@@ -98,13 +106,13 @@ export default class ClothingCollection extends React.Component<ClothingCollecti
 
                         </div>
                     <div className="row Catalog-list mt-2 mb-5">
-
                         {this.state.clothing.map((Clothing,i) => {
-                                console.log(Clothing.id)
-                            return (
-                                <ClothingNode key={Clothing.id} clothing={Clothing} disable={parseInt(this.props.filterValue) < Clothing.price }/>
-                            )
-                            
+                            // console.log(this.props.params.)
+                            if(Clothing.productType === "Women"){
+                                return (
+                                    <ClothingNode key={Clothing.id} clothing={Clothing} />
+                                )
+                            }
                         })}
                     </div>
                     <div className="Catalog-PageSwitch d-flex justify-content-center">

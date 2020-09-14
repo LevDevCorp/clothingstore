@@ -42,16 +42,16 @@ const Navbar = () => {
 	<nav className="navbar navbar-expand-sm lower-section justify-content-center">
 		<ul className="navbar-nav">
 			<li className="nav-item">
-				<NavLink className="nav-link" exact to='/clothingstore/Catalog'>Man</NavLink>
+				<NavLink className="nav-link" exact to='/clothingstore/Men'>Men</NavLink>
 			</li>
 			<li className="nav-item">
-				<NavLink className="nav-link" exact to='/clothingstore/Catalog'>Women</NavLink>
+				<NavLink className="nav-link" exact to='/clothingstore/Women'>Women</NavLink>
 			</li>
 			<li className="nav-item">
-				<NavLink className="nav-link" exact to='/clothingstore/Catalog'>Kids</NavLink>
+				<NavLink className="nav-link" exact to='/clothingstore/Kids'>Kids</NavLink>
 			</li>
 			<li className="nav-item">
-				<NavLink className="nav-link" exact to='/clothingstore/Catalog'>Sale</NavLink>
+				<NavLink className="nav-link" exact to='/clothingstore/Sale'>Sale</NavLink>
 			</li>
 		</ul>
 	</nav>

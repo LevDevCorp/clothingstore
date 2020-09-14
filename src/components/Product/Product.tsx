@@ -24,7 +24,7 @@ export default class ClothingPage extends React.Component<ClothingPageProps, Clo
             currentClothing: ClothingStore.getClothingById(parseInt(this.props.match.params.id))
         }
     }
-
+    
 	render(){
 		return(
             <div className="Product">
@@ -33,7 +33,7 @@ export default class ClothingPage extends React.Component<ClothingPageProps, Clo
                         <div className='col-8 product-gallery'>
                             {/* <img src={`../images/${this.state.currentClothing?.ProductName}${this.state.currentClothing?.ProductName}.${this.state.currentClothing?.picType}`}
                             alt={this.state.currentClothing?.ProductName} className='w-100'/> */}
-                            <GallerySlider clothingimage={this.state.currentClothing?.ProductName} type={this.state.currentClothing?.picType} />
+                            <GallerySlider clothingimage={this.state.currentClothing?.ProductName} clothingImageNumber={this.state.currentClothing?.clothingImageNumber} type={this.state.currentClothing?.picType} />
                         </div>
                         <div className='col-4'>
                             <div className="product-details">

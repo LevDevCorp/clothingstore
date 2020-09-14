@@ -22,7 +22,7 @@ const ClothingShop = () => {
 				<Navbar />
 				<Switch>
 					<Route exact path='/clothingstore/' component={HomePage}></Route>
-					<Route exact path='/clothingstore/Catalog' component={Catalog}></Route>
+					<Route exact path='/clothingstore/:Category' component={Catalog}></Route>
 					<Route exact path='/clothingstore/Login' component={Login}></Route>
 					<Route exact path='/clothingstore/Cart' component={Cart}></Route>
 					<Route exact path='/clothingstore/Checkout' component={Checkout}></Route>

@@ -1,42 +1,20 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Clothing from '../../Clothing';
 import ClothingNode from './clothingNode';
 import ClothingStore from '../../stores/clothingStore';
-import RangeSlider from './RangeSlider'
-import { RouteComponentProps } from 'react-router-dom';
+import RangeSlider from './RangeSlider';
+import { Link } from 'react-router-dom';
 
 
-
-export interface ClothingCollectionState {
-    Clothings:Clothing[],
+interface ClothingCollectionProps {
+    Category:string,
+    SubCategory:string,
 }
 
-// interface MatchParams {
-//     Category:string
-// }
-
-// export interface ClothingCollectionProps extends RouteComponentProps<MatchParams> {
-// }
-
-export default class ClothingCollection extends React.Component{
-    // constructor(props:ClothingCollectionProps){
-    //     super(props);
-    // }
-
-    state = {clothing :ClothingStore.createClothings()}
-    
-    // state:ClothingCollectionState = {Clothings :undefined}
-    // componentDidMount(){
-    //     ClothingStore.createClothings().then((res) => {
-    //         this.state?({
-    //             Clothings:res
-    //         })
-    //     })
-    // }
+export default class ClothingCollection extends React.Component<ClothingCollectionProps>{
+    state = {clothing :ClothingStore.createClothings()} 
 	render(){
-        // let category = useParams;
-    
-		return(
+        return(
         <div className="catalog">
 			<div className="row">
                 <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
@@ -44,13 +22,13 @@ export default class ClothingCollection extends React.Component{
                         <div className="Catalog-filter-Switch">
                             <a className='Catalog-filter-Division' href=''><h3>Men</h3></a>
                                 <div className='Catalog-filter-SubDivision '>
-                                    <a className='' href='#'><h6>Hoodies & Sweatshirts</h6></a>
-                                    <a className='' href='#'><h6>Pants</h6></a>
-                                    <a className='' href='#'><h6>Jackets & Coats</h6></a>
-                                    <a className='' href='#'><h6>Tops & Tees</h6></a>
-                                    <a className='' href='#'><h6>Suits & Blazers</h6></a>
-                                    <a className='' href='#'><h6>Shirts</h6></a>
-                                    <a className='' href='#'><h6>Accessories</h6></a>
+                                    <Link to={`/clothingstore/${this.props.Category}/Hoodies&Sweatshirts`}><h6>Hoodies & Sweatshirts</h6></Link>
+                                    <Link to={`/clothingstore/${this.props.Category}/Pants`}><h6>Pants</h6></Link>
+                                    <Link to={`/clothingstore/${this.props.Category}/Jackets&Coats`}><h6>Jackets & Coats</h6></Link>
+                                    <Link to={`/clothingstore/${this.props.Category}/Tops&Tees`}><h6>Tops & Tees</h6></Link>
+                                    <Link to={`/clothingstore/${this.props.Category}/Shirts`}><h6>Shirts</h6></Link>
+                                    <Link to={`/clothingstore/${this.props.Category}/Shoes`}><h6>Shoes  </h6></Link>
+                                    <Link to={`/clothingstore/${this.props.Category}/Accessories`}><h6>Accessories</h6></Link>
                                 </div>
                         </div>
                         <div className="Divider"></div>
@@ -107,11 +85,22 @@ export default class ClothingCollection extends React.Component{
                         </div>
                     <div className="row Catalog-list mt-2 mb-5">
                         {this.state.clothing.map((Clothing,i) => {
-                            // console.log(this.props.params.)
-                            if(Clothing.productType === "Women"){
-                                return (
-                                    <ClothingNode key={Clothing.id} clothing={Clothing} />
-                                )
+                            //tu sub categoria ar arsebobs jer
+                            // console.log(this.props.SubCategory);
+                            if(Clothing.productCategory === this.props.Category){
+
+                                if(this.props.Category === Clothing.productCategory && this.props.SubCategory === "undefined"){
+                                    // console.log(this.props.SubCategory);
+                                    // console.log(Clothing.productSubCategory);
+                                    return (
+                                        <ClothingNode key={i} clothing={Clothing} />
+                                    )
+                                } else if (this.props.SubCategory !== "undefined" ){
+                                console.log(this.props.SubCategory);
+                                    return (
+                                        <ClothingNode key={i} clothing={Clothing} />
+                                    )
+                                }
                             }
                         })}
                     </div>

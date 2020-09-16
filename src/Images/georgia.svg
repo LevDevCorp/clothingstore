@@ -1,0 +1,10 @@
+<svg id="georgia" xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31">
+  <circle id="Ellipse_2" data-name="Ellipse 2" cx="15.5" cy="15.5" r="15.5" fill="#f0f0f0"/>
+  <g id="Group_12" data-name="Group 12">
+    <path id="Path_16" data-name="Path 16" d="M29.873,13.478H16.957V.131a14.654,14.654,0,0,0-3.913,0V13.478H.127a16.159,16.159,0,0,0,0,4.043H13.043V30.869a14.654,14.654,0,0,0,3.913,0V17.522H29.873a16.159,16.159,0,0,0,0-4.044Z" fill="#d80027"/>
+    <path id="Path_17" data-name="Path 17" d="M92.956,91.065V89.043H91v2.022H89.043v2.022H91v2.022h1.957V93.087h1.957V91.065Z" transform="translate(-83.826 -83.652)" fill="#d80027"/>
+    <path id="Path_18" data-name="Path 18" d="M326.7,91.065V89.043h-1.957v2.022h-1.956v2.022h1.956v2.022H326.7V93.087h1.957V91.065Z" transform="translate(-303.87 -83.652)" fill="#d80027"/>
+    <path id="Path_19" data-name="Path 19" d="M92.956,324.8v-2.022H91V324.8H89.043v2.022H91v2.022h1.957v-2.022h1.957V324.8Z" transform="translate(-83.826 -303.24)" fill="#d80027"/>
+    <path id="Path_20" data-name="Path 20" d="M326.7,324.8v-2.022h-1.957V324.8h-1.956v2.022h1.956v2.022H326.7v-2.022h1.957V324.8Z" transform="translate(-303.87 -303.24)" fill="#d80027"/>
+  </g>
+</svg>

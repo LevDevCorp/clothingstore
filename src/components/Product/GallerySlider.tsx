@@ -19,8 +19,8 @@ export default class GallerySlider extends React.Component<ClothingImageProps> {
         if(length){
             for(i=1; i<=length; i++){
                 images.push({ 
-                        original: `../images/Product/${this.props.clothingimage}${i}.${this.props.type}`,
-                        thumbnail: `../images/Product/${this.props.clothingimage}${i}.${this.props.type}`,
+                        original: `./images/Product/${this.props.clothingimage}${i}.${this.props.type}`,
+                        thumbnail: `./images/Product/${this.props.clothingimage}${i}.${this.props.type}`,
                 })
             }
         }

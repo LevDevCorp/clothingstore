@@ -3,10 +3,10 @@ import Clothing from '../Clothing'
 class ClothingStore {
 
     createClothings = () =>{
-        const Clothing1 = new Clothing(1,1,"Men's Adidas Sports pants","white","Men",53.99,1,'jpg');
-        const Clothing2 = new Clothing(2,2,"sport-top","white","Men",53.50,1,'jpg');
-        const Clothing3 = new Clothing(3,3,"winter-jacket","whsite","Women",29,1,'jpg');
-        const Clothing4 = new Clothing(4,4,"Shoe-Nike-nizza","whsite","Kids",69.99,4,'jpg');
+        const Clothing1 = new Clothing(1,1,"Men's Adidas Sports pants","white","Men","Pants",53.99,1,'jpg');
+        const Clothing2 = new Clothing(2,2,"sport-top","white","Men","Tops&Tees",53.50,1,'jpg');
+        const Clothing3 = new Clothing(3,3,"winter-jacket","whsite","Women","Jackets&Coats",29,1,'jpg');
+        const Clothing4 = new Clothing(4,4,"Shoe-Nike-nizza","whsite","Men","Shoes",69.99,4,'jpg');
         
         return [Clothing1,Clothing2,Clothing3,Clothing4,
             Clothing1,Clothing2,Clothing3,Clothing4,
@@ -25,10 +25,10 @@ class ClothingStore {
         return undefined;
     }
 
-    getClothingByCategory = (productType:string) => {
+    getClothingByCategory = (productCategory:string) => {
         let ClothingsList = this.createClothings();
         for(let i = 0;  i < this.createClothings().length;i++){
-            if(ClothingsList[i].productType === productType){
+            if(ClothingsList[i].productCategory === productCategory){
                 return ClothingsList[i];
             }
         }

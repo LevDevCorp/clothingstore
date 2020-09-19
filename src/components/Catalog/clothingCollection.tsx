@@ -56,17 +56,12 @@ export default class ClothingCollection extends React.Component<ClothingCollecti
                             <h3 className='text-center' >Choose Size</h3>
                             <div className="Catalog-filter-Sizebox d-flex">
                                 <a href='#'><div className="Catalog-filter-box">41</div></a>
-                                <a href='#'><div className="Catalog-filter-box">41</div></a>
-                                <a href='#'><div className="Catalog-filter-box">41</div></a>
-                                <a href='#'><div className="Catalog-filter-box">41</div></a>
-                                <a href='#'><div className="Catalog-filter-box">41</div></a>
-                                <a href='#'><div className="Catalog-filter-box">41</div></a>
-                                <a href='#'><div className="Catalog-filter-box">41</div></a>
-                                <a href='#'><div className="Catalog-filter-box">41</div></a>
-                                <a href='#'><div className="Catalog-filter-box">41</div></a>
-                                <a href='#'><div className="Catalog-filter-box">41</div></a>
-                                <a href='#'><div className="Catalog-filter-box">41</div></a>
-                                <a href='#'><div className="Catalog-filter-box">41</div></a>
+                                <a href='#'><div className="Catalog-filter-box">42</div></a>
+                                <a href='#'><div className="Catalog-filter-box">43</div></a>
+                                <a href='#'><div className="Catalog-filter-box">44</div></a>
+                                <a href='#'><div className="Catalog-filter-box">45</div></a>
+                                <a href='#'><div className="Catalog-filter-box">46</div></a>
+                                <a href='#'><div className="Catalog-filter-box">47</div></a>
                             </div>
                         </div>
                     </div>
@@ -86,17 +81,14 @@ export default class ClothingCollection extends React.Component<ClothingCollecti
                     <div className="row Catalog-list mt-2 mb-5">
                         {this.state.clothing.map((Clothing,i) => {
                             //tu sub categoria ar arsebobs jer
-                            // console.log(this.props.SubCategory);
-                            if(Clothing.productCategory === this.props.Category){
-
-                                if(this.props.Category === Clothing.productCategory && this.props.SubCategory === "undefined"){
-                                    // console.log(this.props.SubCategory);
-                                    // console.log(Clothing.productSubCategory);
-                                    return (
-                                        <ClothingNode key={i} clothing={Clothing} />
-                                    )
-                                } else if (this.props.SubCategory !== "undefined" ){
-                                console.log(this.props.SubCategory);
+                            if(this.props.Category=== Clothing.productCategory ){
+                                if(this.props.SubCategory !== undefined){
+                                    if(this.props.SubCategory === Clothing.productSubCategory){
+                                        return (
+                                            <ClothingNode key={i} clothing={Clothing} />
+                                        )
+                                    }
+                                } else if (this.props.SubCategory === undefined ){
                                     return (
                                         <ClothingNode key={i} clothing={Clothing} />
                                     )

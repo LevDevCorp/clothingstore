@@ -17,11 +17,11 @@ class ClothingStore {
         const Clothing12 = new Clothing(12,4,"Men-Leather-Shoes","white","Men","Shoes",69.99,4,'jpg');
         const Clothing13 = new Clothing(13,4,"men-pants-casual","white","Men","Shoes",13.99,4,'jpg');
         const Clothing14 = new Clothing(14,4,"shoe-women-casual","white","Women","Shoes",119.99,4,'jpg');
-        const Clothing15 = new Clothing(15,4,"women-adidas-pants","white","Women","Shoes",19.99,4,'jpg');
-        const Clothing16 = new Clothing(16,4,"women-jewelry-bracelet","white","Women","Shoes",69.00,4,'jpg');
-        const Clothing17 = new Clothing(17,4,"women-jewelry-silverbracelet","white","Women","Shoes",69.99,4,'jpg');
-        const Clothing18 = new Clothing(18,4,"women-Sterling-Silver-Necklace-owl","white","Women","Shoes",25.99,4,'jpg');
-        const Clothing19 = new Clothing(19,4,"women-top","white","Women","Shoes",35.99,4,'jpg');
+        const Clothing15 = new Clothing(15,4,"women-adidas-pants","white","Women","Pants",19.99,4,'jpg');
+        const Clothing16 = new Clothing(16,4,"women-jewelry-bracelet","white","Women","Accessories",69.00,4,'jpg');
+        const Clothing17 = new Clothing(17,4,"women-jewelry-silverbracelet","white","Women","Accessories",69.99,4,'jpg');
+        const Clothing18 = new Clothing(18,4,"women-Sterling-Silver-Necklace-owl","white","Women","Accessories",25.99,4,'jpg');
+        const Clothing19 = new Clothing(19,4,"women-top","white","Women","Tops&Tees",35.99,4,'jpg');
         
         return [Clothing1,Clothing2,Clothing3,Clothing4,
             Clothing5,Clothing6,Clothing7,Clothing8,

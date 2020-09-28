@@ -20,47 +20,47 @@ export default class NewRelease extends React.Component {
           <Container className="mt--100 ">
             <div className="clearfix">
               <h4 className="float-left">New Release</h4>
-              <Link className="float-right text-upercase" to="/clothingstore/Catalog" >View More</Link>
+              <Link className="float-right text-upercase" to="/clothingstore/Men" >View More</Link>
             </div>
            <Slider className="border p-carousel bg-collor" {...settings}>
         <div className="height-320  ">
-            <Link to='/clothingstore/product/1'>
+            <Link to='/clothingstore/product1'>
                 <img className="margin-R" src="images/Homepage/pants-sport.png" alt="pants-sport" />
             </Link>
         </div>
         <div className="height-320 ">
-            <Link to='/clothingstore/product/2'>
+            <Link to='/clothingstore/product2'>
                 <img className="margin-R" src="images/Homepage/shoe-women-casual.png" alt="shoe-women-casualn" />
             </Link>
         </div>
         <div className="height-320 " >
-            <Link to='/clothingstore/product/3'>
+            <Link to='/clothingstore/product3'>
                 <img src="images/Homepage/winter-jacket.png" alt="winter-jacket" />
             </Link>
 
         </div>
         <div className="height-320 ">
-            <Link to='/clothingstore/product/4'>
+            <Link to='/clothingstore/product4'>
                 <img src="images/Homepage/jexxi-ring.png" alt="jexxi-ring" />
             </Link>
         </div>
         <div className="height-320 ">
-            <Link to='/clothingstore/product/1'>
+            <Link to='/clothingstore/product1'>
                 <img className="" src="images/Homepage/pants-sport.png" alt="pants-sport" />
             </Link>
         </div>
         <div  className="height-320 ">
-            <Link to='/clothingstore/product/1'>
+            <Link to='/clothingstore/product1'>
                 <img src="images/Homepage/shoe-women-casual.png" alt="shoe-women-casualn" />
             </Link>
         </div>
         <div  className="height-320 ">
-            <Link to='/clothingstore/product/1'>
+            <Link to='/clothingstore/product1'>
                 <img src="images/Homepage/winter-jacket.png" alt="winter-jacket" />
             </Link>
         </div>
         <div  className="height-320">
-            <Link to='/clothingstore/product/1'>
+            <Link to='/clothingstore/product1'>
                 <img src="images/Homepage/jexxi-ring.png" alt="jexxi-ring" />
             </Link>
         </div>

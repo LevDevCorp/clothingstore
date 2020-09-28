@@ -436,7 +436,7 @@ footer {
     background-color: #fff;
 }
 
-.Product-reviews-review img {max-width: 30px;}
+.Product-reviews-review img {max-width: 30px;margin-right: 10px;}
 .Product-reviews-review h4{
     color: #403234;
     margin: auto 0;

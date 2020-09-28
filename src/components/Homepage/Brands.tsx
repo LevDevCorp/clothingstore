@@ -20,46 +20,46 @@ export default class Brands extends React.Component {
             <Container className="mt--100 margin-bott">
                 <div className="clearfix">
                     <h4 className="float-left">Brands</h4>
-                    <Link className="float-right text-upercase" to="/clothingstore/Catalog" >View More</Link>
+                    <Link className="float-right text-upercase" to="/clothingstore/Men" >View More</Link>
                 </div>
                 <Slider className="border p-carousel bg-collor" {...settings}>
                     <div className="height-320  ">
-                        <Link to='/clothingstore/Catalog'>
+                        <Link to='/clothingstore/Men>'>
                             <img className="margin-R" src="images/Homepage/adidas.png" alt="pants-sport" />
                         </Link>
                     </div>
                     <div className="height-320 ">
-                        <Link to='/clothingstore/Catalog'>
+                        <Link to='/clothingstore/Men'>
                             <img className="margin-R" src="images/Homepage/nike-swoosh-wikipedia.png" alt="shoe-women-casualn" />
                         </Link>
                     </div>
                     <div className="height-320 " >
-                        <Link to='/clothingstore/Catalog'>
+                        <Link to='/clothingstore/Men'>
                             <img src="images/Homepage/CalvinKlein.png" alt="winter-jacket" />
                         </Link>
                     </div>
                     <div className="height-320 ">
-                        <Link to='/clothingstore/Catalog'>
+                        <Link to='/clothingstore/Men'>
                             <img src="images/Homepage/polo.png" alt="jexxi-ring" />
                         </Link>
                     </div>
                     <div className="height-320 ">
-                        <Link to='/clothingstore/Catalog'>
+                        <Link to='/clothingstore/Men'>
                             <img className="" src="images/Homepage/adidas.png" alt="pants-sport" />
                         </Link>
                     </div>
                     <div className="height-320 ">
-                        <Link to='/clothingstore/Catalog'>
+                        <Link to='/clothingstore/Men'>
                             <img src="images/Homepage/nike-swoosh-wikipedia.png" alt="shoe-women-casualn" />
                         </Link>
                     </div>
                     <div className="height-320 ">
-                        <Link to='/clothingstore/Catalog'>
+                        <Link to='/clothingstore/Men'>
                             <img src="images/Homepage/CalvinKlein.png" alt="winter-jacket" />
                         </Link>
                     </div>
                     <div className="height-320">
-                        <Link to='/clothingstore/Catalog'>
+                        <Link to='/clothingstore/Men'>
                             <img src="images/Homepage/polo.png" alt="jexxi-ring" />
                         </Link>
                     </div>

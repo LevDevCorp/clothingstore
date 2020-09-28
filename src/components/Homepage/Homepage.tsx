@@ -17,13 +17,13 @@ export default class HomePage extends React.Component {
                     <img src="images/Homepage/Banner.png" alt="Banner" />
                     <div className="homepage-banner-text text-center">
                         <p>Up to 50% Off on Women's clothing</p>
-                        <Link to='/clothingstore/Catalog'><button className="mt-2">More</button></Link>
+                        <Link to='/clothingstore/Women'><button className="mt-2">More</button></Link>
                     </div>
                 </div>
 				<div className="container">
 					<div className="row mt--1">
 						<div className="homepage-banner col-4">
-							<Link to="/clothingstore/Catalog" >
+							<Link to="/clothingstore/Men" >
                                 <img src="images/Homepage/menSection.png" alt="menSection" />
                                 <div className="homepage-banner-text text-center">
                                     <p>MEN</p>
@@ -33,7 +33,7 @@ export default class HomePage extends React.Component {
 
                		 	</div>
 						<div className="homepage-banner col-4">
-							<Link to="/clothingstore/Catalog">
+							<Link to="/clothingstore/Women">
                                 <img src="images/Homepage/womenSection.png" alt="womenSection" />
                                 <div className="homepage-banner-text text-center">
                                     <p>WOMEN</p>
@@ -43,7 +43,7 @@ export default class HomePage extends React.Component {
 
                		 	</div>
 						<div className="homepage-banner col-4">
-							<Link to="/clothingstore/Catalog" >
+							<Link to="/clothingstore/Kids" >
                                 <img src="images/Homepage/kidsSection.png" alt="kidsSection" />
                                 <div className="homepage-banner-text text-center">
                                     <p>KIDS</p>

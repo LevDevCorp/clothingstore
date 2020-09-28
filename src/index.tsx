@@ -27,6 +27,7 @@ const ClothingShop = () => {
 					<Route exact path='/clothingstore/Checkout' component={Checkout}></Route>
 					<Route exact path='/clothingstore/Orders' component={Orders}></Route>
                     <Route exact path='/clothingstore/Product:id' component={Product}></Route>
+                    <Route exact path='/clothingstore/:Category/Product:id' component={Product}></Route>
 					<Route exact path='/clothingstore/Wishlist' component={Wishlist}></Route>
                     <Route exact path='/clothingstore/:Category' component={Catalog}></Route>
                     <Route exact path='/clothingstore/:Category/:SubCategory' component={Catalog}></Route>

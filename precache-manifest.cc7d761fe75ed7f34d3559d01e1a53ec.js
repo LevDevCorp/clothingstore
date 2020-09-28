@@ -1,51 +1,95 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9e5eb647fbfdce2c5d4a326b06bea362",
+    "revision": "95cd5f73ca49bd4dad76096d7256d928",
     "url": "/clothingstore/index.html"
   },
   {
-    "revision": "157438ec23389e7b4124",
+    "revision": "9f51eb8eaa15fab86772",
     "url": "/clothingstore/static/css/2.be897f50.chunk.css"
   },
   {
-    "revision": "6639aa9ec7ed3525c9f1",
+    "revision": "b7fafc3af2470b3b6523",
     "url": "/clothingstore/static/css/main.0f7146e1.chunk.css"
   },
   {
-    "revision": "157438ec23389e7b4124",
-    "url": "/clothingstore/static/js/2.727978b9.chunk.js"
+    "revision": "9f51eb8eaa15fab86772",
+    "url": "/clothingstore/static/js/2.8fe4d2c8.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/clothingstore/static/js/2.727978b9.chunk.js.LICENSE.txt"
+    "url": "/clothingstore/static/js/2.8fe4d2c8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6639aa9ec7ed3525c9f1",
-    "url": "/clothingstore/static/js/main.37d163a4.chunk.js"
+    "revision": "b7fafc3af2470b3b6523",
+    "url": "/clothingstore/static/js/main.e4699164.chunk.js"
   },
   {
     "revision": "b87266c6dba53d6a3d56",
     "url": "/clothingstore/static/js/runtime-main.2e068c27.js"
   },
   {
+    "revision": "8338793306d16b3bc28d6be5179dea5f",
+    "url": "/clothingstore/static/media/Alpinestars-Winter-Jacket1.83387933.jpg"
+  },
+  {
     "revision": "7adb1fb5d6a2c5fec98d9c90bcd1bcad",
     "url": "/clothingstore/static/media/Arrow.7adb1fb5.svg"
+  },
+  {
+    "revision": "c58a260a2bf062f94a44f4a1e9451d1c",
+    "url": "/clothingstore/static/media/Autumn-Chiffon-Blouse1.c58a260a.jpg"
+  },
+  {
+    "revision": "11d16218ee9164e8e5fc90b3d34aef6e",
+    "url": "/clothingstore/static/media/Elegant-Drawstring-Sweet1.11d16218.jpg"
   },
   {
     "revision": "a007cc29f214177ec945df57a9dae6da",
     "url": "/clothingstore/static/media/Facebook.a007cc29.svg"
   },
   {
+    "revision": "1007c707eb9c2040882864dea4c1fbaf",
+    "url": "/clothingstore/static/media/Gothic-Pants-Plaid1.1007c707.jpg"
+  },
+  {
+    "revision": "4763c16ad55dd199a58c435c7d2095f4",
+    "url": "/clothingstore/static/media/Harajuku-Ladies-Joggers1.4763c16a.jpg"
+  },
+  {
+    "revision": "e02e1de6197daab0bbc50492104ba4c1",
+    "url": "/clothingstore/static/media/High-Heels-Party1.e02e1de6.jpg"
+  },
+  {
+    "revision": "5c7dd0ef658ffe93a5d73d1d6175208f",
+    "url": "/clothingstore/static/media/Hip-Hop-Streetwear1.5c7dd0ef.jpg"
+  },
+  {
     "revision": "d66c2d406b43947647bf7f5c5474d63f",
     "url": "/clothingstore/static/media/Instagram.d66c2d40.svg"
+  },
+  {
+    "revision": "b60515fff6893a1be3c6440f84ff5d78",
+    "url": "/clothingstore/static/media/Ladies-Office-Work-Pants1.b60515ff.jpg"
   },
   {
     "revision": "6c265c2a42371034fea8de38c5db75c1",
     "url": "/clothingstore/static/media/Men's Adidas Sports pants1.6c265c2a.jpg"
   },
   {
+    "revision": "f2905afc1291775dae5f6f5c60f5c74c",
+    "url": "/clothingstore/static/media/Men-Joggers-Oversize1.f2905afc.jpg"
+  },
+  {
     "revision": "8c7b2df2ad4b3823cae7a5a8096d55cd",
     "url": "/clothingstore/static/media/Men-Leather-Shoes1.8c7b2df2.jpg"
+  },
+  {
+    "revision": "9fff88cae36ff820e2b43e360f0bbf81",
+    "url": "/clothingstore/static/media/Office-Lady-Blouse1.9fff88ca.jpg"
+  },
+  {
+    "revision": "8af2f9b20e3ff4c51f34c50469ee7917",
+    "url": "/clothingstore/static/media/Parkas-Hooded-coat1.8af2f9b2.jpg"
   },
   {
     "revision": "a5c4afedcf1ee8ae34704c9dceb411c9",
@@ -54,6 +98,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "30cf4e21cb7817b12e2b5fd20b2e9242",
     "url": "/clothingstore/static/media/Pinterest.30cf4e21.svg"
+  },
+  {
+    "revision": "011ade4008ec7463af4a27db8ee814c0",
+    "url": "/clothingstore/static/media/Shirt-Ladies-Floral1.011ade40.jpg"
   },
   {
     "revision": "017c680e203087ff8db2eee187b3bf20",
@@ -72,8 +120,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/clothingstore/static/media/Shoe-Nike-nizza4.7a55c658.jpg"
   },
   {
+    "revision": "d9e9a74511ffbedaa18fc68eb092419b",
+    "url": "/clothingstore/static/media/Spring-Lace-Hollow1.d9e9a745.jpg"
+  },
+  {
     "revision": "5e9b69be4dfead77a1771261bc4b92df",
     "url": "/clothingstore/static/media/VISA.5e9b69be.svg"
+  },
+  {
+    "revision": "631a6a414b19072fcac37c216af37ad9",
+    "url": "/clothingstore/static/media/Vangull-Leather-Jacket1.631a6a41.jpg"
   },
   {
     "revision": "fb5d679c4dd267afe17d4f95f36cb163",
@@ -88,8 +144,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/clothingstore/static/media/american-express.78a87b88.svg"
   },
   {
+    "revision": "9585cbcb3b46313f559734159b346cf4",
+    "url": "/clothingstore/static/media/black-top1.9585cbcb.jpg"
+  },
+  {
+    "revision": "de57d4a0d99e00422c2fab6ec08f4121",
+    "url": "/clothingstore/static/media/blue-shirt1.de57d4a0.jpg"
+  },
+  {
+    "revision": "117978ca4c9c5cf9832a7b429dc54c4e",
+    "url": "/clothingstore/static/media/blue-sweatshirt1.117978ca.jpg"
+  },
+  {
+    "revision": "b3054914ec34353ed96b1e0687d1caff",
+    "url": "/clothingstore/static/media/dark-blue-shirt1.b3054914.jpg"
+  },
+  {
+    "revision": "424e58e423a2813b84dac985f0a44618",
+    "url": "/clothingstore/static/media/dark-blue-sweatshirt1.424e58e4.jpg"
+  },
+  {
     "revision": "85d3ab277f6f9ae12a16272c6cc4cffb",
     "url": "/clothingstore/static/media/georgia.85d3ab27.svg"
+  },
+  {
+    "revision": "8f345fda236131e940dcadd76ef94297",
+    "url": "/clothingstore/static/media/grey-Oversize-Hooded1.8f345fda.jpg"
+  },
+  {
+    "revision": "6a488a72cbc3a992f1f7636af1eb4241",
+    "url": "/clothingstore/static/media/hooded-Coats-Casual1.6a488a72.jpg"
   },
   {
     "revision": "f2b072d3f828c4757f2a0332286d56be",
@@ -136,6 +220,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/clothingstore/static/media/myaccount.036f8650.svg"
   },
   {
+    "revision": "c28ad106681d0d81e67845c677ea4191",
+    "url": "/clothingstore/static/media/puma-coat1.c28ad106.jpg"
+  },
+  {
+    "revision": "0e19b1328a68ebfc6bcf2eeccced71b8",
+    "url": "/clothingstore/static/media/red-autumn-hoodie1.0e19b132.jpg"
+  },
+  {
     "revision": "5c8aa74927454453426760a004f9411c",
     "url": "/clothingstore/static/media/search-icon.5c8aa749.svg"
   },
@@ -166,6 +258,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ea2f4abcdc1406aaf57172b39c20b180",
     "url": "/clothingstore/static/media/sport-top1.ea2f4abc.jpg"
+  },
+  {
+    "revision": "da527bb7f98216a6f8620505209ea40e",
+    "url": "/clothingstore/static/media/sweatshirt1.da527bb7.jpg"
+  },
+  {
+    "revision": "e62704d3c04f1212a8b4d7f23d8b82df",
+    "url": "/clothingstore/static/media/white-shirt1.e62704d3.jpg"
   },
   {
     "revision": "7882930334fe542b3e73dd239e4baaa4",

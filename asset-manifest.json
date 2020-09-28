@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/clothingstore/static/css/main.e1c9b04d.chunk.css",
-    "main.js": "/clothingstore/static/js/main.16f0671b.chunk.js",
-    "main.js.map": "/clothingstore/static/js/main.16f0671b.chunk.js.map",
+    "main.css": "/clothingstore/static/css/main.0f7146e1.chunk.css",
+    "main.js": "/clothingstore/static/js/main.37d163a4.chunk.js",
+    "main.js.map": "/clothingstore/static/js/main.37d163a4.chunk.js.map",
     "runtime-main.js": "/clothingstore/static/js/runtime-main.2e068c27.js",
     "runtime-main.js.map": "/clothingstore/static/js/runtime-main.2e068c27.js.map",
     "static/css/2.be897f50.chunk.css": "/clothingstore/static/css/2.be897f50.chunk.css",
-    "static/js/2.9235ff85.chunk.js": "/clothingstore/static/js/2.9235ff85.chunk.js",
-    "static/js/2.9235ff85.chunk.js.map": "/clothingstore/static/js/2.9235ff85.chunk.js.map",
+    "static/js/2.727978b9.chunk.js": "/clothingstore/static/js/2.727978b9.chunk.js",
+    "static/js/2.727978b9.chunk.js.map": "/clothingstore/static/js/2.727978b9.chunk.js.map",
     "index.html": "/clothingstore/index.html",
-    "precache-manifest.9e57f1deed13dd00904c28d043e36cb4.js": "/clothingstore/precache-manifest.9e57f1deed13dd00904c28d043e36cb4.js",
+    "precache-manifest.46de8d226c8f4ecfa271501d867de8b5.js": "/clothingstore/precache-manifest.46de8d226c8f4ecfa271501d867de8b5.js",
     "service-worker.js": "/clothingstore/service-worker.js",
     "static/css/2.be897f50.chunk.css.map": "/clothingstore/static/css/2.be897f50.chunk.css.map",
-    "static/css/main.e1c9b04d.chunk.css.map": "/clothingstore/static/css/main.e1c9b04d.chunk.css.map",
-    "static/js/2.9235ff85.chunk.js.LICENSE.txt": "/clothingstore/static/js/2.9235ff85.chunk.js.LICENSE.txt",
+    "static/css/main.0f7146e1.chunk.css.map": "/clothingstore/static/css/main.0f7146e1.chunk.css.map",
+    "static/js/2.727978b9.chunk.js.LICENSE.txt": "/clothingstore/static/js/2.727978b9.chunk.js.LICENSE.txt",
     "static/media/style.css": "/clothingstore/static/media/Arrow.7adb1fb5.svg",
     "static/media/Facebook.svg": "/clothingstore/static/media/Facebook.a007cc29.svg",
     "static/media/Instagram.svg": "/clothingstore/static/media/Instagram.d66c2d40.svg",
@@ -56,8 +56,8 @@
   "entrypoints": [
     "static/js/runtime-main.2e068c27.js",
     "static/css/2.be897f50.chunk.css",
-    "static/js/2.9235ff85.chunk.js",
-    "static/css/main.e1c9b04d.chunk.css",
-    "static/js/main.16f0671b.chunk.js"
+    "static/js/2.727978b9.chunk.js",
+    "static/css/main.0f7146e1.chunk.css",
+    "static/js/main.37d163a4.chunk.js"
   ]
 }

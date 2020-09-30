@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/clothingstore/static/css/main.0f7146e1.chunk.css",
-    "main.js": "/clothingstore/static/js/main.e4699164.chunk.js",
-    "main.js.map": "/clothingstore/static/js/main.e4699164.chunk.js.map",
+    "main.js": "/clothingstore/static/js/main.57c989f1.chunk.js",
+    "main.js.map": "/clothingstore/static/js/main.57c989f1.chunk.js.map",
     "runtime-main.js": "/clothingstore/static/js/runtime-main.2e068c27.js",
     "runtime-main.js.map": "/clothingstore/static/js/runtime-main.2e068c27.js.map",
     "static/css/2.be897f50.chunk.css": "/clothingstore/static/css/2.be897f50.chunk.css",
-    "static/js/2.8fe4d2c8.chunk.js": "/clothingstore/static/js/2.8fe4d2c8.chunk.js",
-    "static/js/2.8fe4d2c8.chunk.js.map": "/clothingstore/static/js/2.8fe4d2c8.chunk.js.map",
+    "static/js/2.261f3bbc.chunk.js": "/clothingstore/static/js/2.261f3bbc.chunk.js",
+    "static/js/2.261f3bbc.chunk.js.map": "/clothingstore/static/js/2.261f3bbc.chunk.js.map",
     "index.html": "/clothingstore/index.html",
-    "precache-manifest.cc7d761fe75ed7f34d3559d01e1a53ec.js": "/clothingstore/precache-manifest.cc7d761fe75ed7f34d3559d01e1a53ec.js",
+    "precache-manifest.489a9e77ebc98789dd854d68d182c093.js": "/clothingstore/precache-manifest.489a9e77ebc98789dd854d68d182c093.js",
     "service-worker.js": "/clothingstore/service-worker.js",
     "static/css/2.be897f50.chunk.css.map": "/clothingstore/static/css/2.be897f50.chunk.css.map",
     "static/css/main.0f7146e1.chunk.css.map": "/clothingstore/static/css/main.0f7146e1.chunk.css.map",
-    "static/js/2.8fe4d2c8.chunk.js.LICENSE.txt": "/clothingstore/static/js/2.8fe4d2c8.chunk.js.LICENSE.txt",
+    "static/js/2.261f3bbc.chunk.js.LICENSE.txt": "/clothingstore/static/js/2.261f3bbc.chunk.js.LICENSE.txt",
+    "static/media/AccountLogo.svg": "/clothingstore/static/media/AccountLogo.201e58a0.svg",
     "static/media/Alpinestars-Winter-Jacket1.jpg": "/clothingstore/static/media/Alpinestars-Winter-Jacket1.83387933.jpg",
     "static/media/style.css": "/clothingstore/static/media/Arrow.7adb1fb5.svg",
     "static/media/Autumn-Chiffon-Blouse1.jpg": "/clothingstore/static/media/Autumn-Chiffon-Blouse1.c58a260a.jpg",
@@ -81,8 +82,8 @@
   "entrypoints": [
     "static/js/runtime-main.2e068c27.js",
     "static/css/2.be897f50.chunk.css",
-    "static/js/2.8fe4d2c8.chunk.js",
+    "static/js/2.261f3bbc.chunk.js",
     "static/css/main.0f7146e1.chunk.css",
-    "static/js/main.e4699164.chunk.js"
+    "static/js/main.57c989f1.chunk.js"
   ]
 }

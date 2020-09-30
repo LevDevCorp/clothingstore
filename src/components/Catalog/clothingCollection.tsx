@@ -20,7 +20,7 @@ export default class ClothingCollection extends React.Component<ClothingCollecti
                 <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
                     <div className="Catalog-filter  ml-4">
                         <div className="Catalog-filter-Switch">
-                            <a className='Catalog-filter-Division' href=''><h3>Men</h3></a>
+                            <a className='Catalog-filter-Division' href=''><h3>{this.props.Category}</h3></a>
                                 <div className='Catalog-filter-SubDivision '>
                                     <Link to={`/clothingstore/${this.props.Category}/Hoodies&Sweatshirts`}><h6>Hoodies & Sweatshirts</h6></Link>
                                     <Link to={`/clothingstore/${this.props.Category}/Pants`}><h6>Pants</h6></Link>
